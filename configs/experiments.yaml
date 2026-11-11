@@ -1,0 +1,61 @@
+experiments:
+  fundus_3class:
+    dataset: "fundus"
+    task: "fundus_3class"
+    mode: "image"
+    models:
+      - resnet50
+      - densenet121
+      - efficientnet_b0
+      - lstm
+      - bilstm
+      - resnet50_lstm
+      - resnet50_bilstm
+      - efficientnet_b0_bilstm
+      - mlp
+      - autoencoder_classifier
+
+  oct_individual:
+    dataset: "oct"
+    task: "oct_3class"
+    mode: "image"
+    models:
+      - resnet50
+      - densenet121
+      - efficientnet_b0
+      - lstm
+      - bilstm
+      - resnet50_lstm
+      - resnet50_bilstm
+      - efficientnet_b0_bilstm
+      - mlp
+      - autoencoder_classifier
+
+  oct_sequence:
+    dataset: "oct"
+    task: "oct_3class"
+    mode: "sequence"
+    batch_size: 4
+    models:
+      - resnet50_lstm
+      - resnet50_bilstm
+      - efficientnet_b0_bilstm
+      - lstm
+      - bilstm
+
+  oct_severity:
+    dataset: "oct"
+    task: "oct_severity"
+    mode: "image"
+    models:
+      - resnet50
+      - densenet121
+      - efficientnet_b0
+      - lstm
+      - bilstm
+      - resnet50_lstm
+      - resnet50_bilstm
+      - efficientnet_b0_bilstm
+      - mlp
+      - autoencoder_classifier
+

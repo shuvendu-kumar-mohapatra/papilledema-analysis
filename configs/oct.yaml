@@ -1,0 +1,28 @@
+dataset:
+  name: "oct"
+  modality: "oct"
+  root: "data/raw/OCT/Original Data/OCT"
+  in_channels: 1
+  image_size: 224
+  normalize_mean: [0.5]
+  normalize_std: [0.5]
+  split_ratios: [0.70, 0.15, 0.15]
+  sequence_length: 8
+  sequence_stride: 8
+  tasks:
+    oct_3class:
+      classes: ["Normal", "Papilledema", "Pseudopapilledema"]
+      folder_map:
+        "Normal": "Normal"
+        "Papilledema": "Papilledema"
+        "Pseudo papilledema": "Pseudopapilledema"
+    oct_severity:
+      classes: ["G1", "G2", "G3", "G4"]
+      exploratory: true
+  limitations:
+    - "1 IR/SLO non-B-scan image (heshama_001.jpg) is excluded, leaving 1,140 B-scans."
+    - "Sequence IDs are inferred from filenames and visual continuity; never treated as verified patients."
+    - "Normal (sabrenr) and Pseudopapilledema (heshama) each have only 1 inferred subject prefix (2 series); G1 and G4 each have 1 inferred prefix."
+    - "No reliable clinical documentation validates Frisén G1-G4 severity grades; severity grading is strictly exploratory."
+    - "Fabricated patient IDs and augmented folders are strictly excluded."
+

@@ -1,0 +1,41 @@
+project:
+  name: "papilledema-research"
+  title: "Comparative Analysis of CNN, RNN, and Hybrid CNN-RNN Architectures for Papilledema Detection and Severity Grading"
+  random_seeds: [42, 123, 2024, 3407, 5678]
+  default_seed: 42
+
+paths:
+  raw_fundus: "data/raw/fundus"
+  raw_oct: "data/raw/OCT/Original Data/OCT"
+  excluded_oct_paths:
+    - "data/raw/OCT/Original Data/Original Data/OCT"
+    - "data/raw/OCT/Original Data/OCT Data with Patient ID"
+    - "data/raw/OCT/Augmented Data"
+  manifests_dir: "data/manifests"
+  splits_dir: "data/splits"
+  processed_dir: "data/processed"
+  checkpoints_dir: "checkpoints"
+  experiments_dir: "experiments"
+  results_dir: "results"
+  logs_dir: "logs"
+
+training:
+  epochs: 30
+  batch_size: 16
+  num_workers: 0  # Safe default on Windows; CLI/notebook can override
+  learning_rate: 1.0e-4
+  weight_decay: 1.0e-4
+  grad_clip_norm: 1.0
+  early_stopping_patience: 7
+  use_mixed_precision: true
+  use_class_weights: true
+  scheduler: "cosine"
+  selection_metric: "macro_f1"
+  autoencoder_pretrain_epochs: 5
+
+evaluation:
+  alpha: 0.05
+  bootstrap_resamples: 2000
+  low_conf_threshold: 0.6
+  high_conf_error_threshold: 0.8
+

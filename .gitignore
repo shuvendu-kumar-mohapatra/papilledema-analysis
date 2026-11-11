@@ -1,0 +1,39 @@
+# Byte-compiled Python & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw & processed medical datasets (never publish medical images or Patient-ID folders)
+data/raw/
+data/processed/
+
+# Generated image-level manifests, split tables, and per-sample predictions
+# (Regenerated locally via scripts/verify_data.py, scripts/create_splits.py, and training runs;
+# excluded from git to avoid exposing raw file paths and filename-derived sequence tokens.)
+data/manifests/*.csv
+data/splits/*.csv
+results/predictions/
+
+# Heavy model checkpoints, per-run experiment directories, runtime logs, and smoke artifacts
+checkpoints/
+experiments/
+logs/
+*__smoke*
+

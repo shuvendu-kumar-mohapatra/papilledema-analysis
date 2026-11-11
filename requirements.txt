@@ -1,0 +1,18 @@
+# Core dependencies verified with Python 3.12 and PyTorch 2.14.0+cu132.
+# Install PyTorch and Torchvision matching your local CUDA driver or CPU environment
+# from https://pytorch.org/get-started/locally/ before installing the remaining packages.
+torch>=2.10
+torchvision>=0.25
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+scipy>=1.14
+matplotlib>=3.9
+seaborn>=0.13
+pillow>=10.0
+opencv-python-headless>=4.10
+PyYAML>=6.0
+tqdm>=4.66
+psutil>=6.0
+jupyter>=1.0
+ipykernel>=7.0

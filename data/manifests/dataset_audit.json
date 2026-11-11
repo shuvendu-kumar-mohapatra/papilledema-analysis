@@ -1,0 +1,77 @@
+{
+  "fundus": {
+    "raw_total": 1369,
+    "corrupted_count": 0,
+    "excluded_cross_class_count": 2,
+    "retained_total": 1367,
+    "retained_class_counts": {
+      "Normal": 778,
+      "Papilledema": 295,
+      "Pseudopapilledema": 294
+    },
+    "raw_class_counts": {
+      "Normal": 779,
+      "Papilledema": 295,
+      "Pseudopapilledema": 295
+    },
+    "unique_clusters": 1270,
+    "multi_image_clusters": 74,
+    "images_in_multi_clusters": 171,
+    "near_dup_pairs": 110,
+    "cross_class_conflicts": 1,
+    "dimensions": {
+      "240x240": 1365,
+      "240x208": 1,
+      "240x225": 1
+    }
+  },
+  "oct": {
+    "raw_total_scanned": 1141,
+    "excluded_count": 1,
+    "excluded_files": [
+      {
+        "image_path": "data/raw/OCT/Original Data/OCT/Pseudo papilledema/heshama_001.jpg",
+        "folder_class": "Pseudopapilledema",
+        "exclusion_reason": "IR/SLO reflectance image detected (size=(269,701), max_ch_diff=0)"
+      }
+    ],
+    "retained_bscan_total": 1140,
+    "class_3_counts": {
+      "Papilledema": 895,
+      "Normal": 132,
+      "Pseudopapilledema": 113
+    },
+    "severity_counts": {
+      "G2": 598,
+      "G3": 184,
+      "G4": 73,
+      "G1": 40
+    },
+    "inferred_sequence_counts": {
+      "Normal": 2,
+      "Papilledema": 17,
+      "Pseudopapilledema": 2
+    },
+    "inferred_prefix_counts": {
+      "Normal": 1,
+      "Papilledema": 10,
+      "Pseudopapilledema": 1
+    },
+    "severity_prefix_counts": {
+      "G1": 1,
+      "G2": 6,
+      "G3": 3,
+      "G4": 1
+    },
+    "dimensions": {
+      "381x596": 1062,
+      "509x596": 76,
+      "765x596": 2
+    },
+    "excluded_folders_enforced": [
+      "data/raw/OCT/Original Data/Original Data/OCT",
+      "data/raw/OCT/Original Data/OCT Data with Patient ID",
+      "data/raw/OCT/Augmented Data"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "notebook": "notebooks/Papilledema_Complete_Research_Analysis.ipynb",
+  "completed_non_smoke_runs": 175,
+  "tracks": {
+    "fundus_3class": 50,
+    "oct_individual": 50,
+    "oct_sequence": 25,
+    "oct_severity": 50
+  },
+  "tables": [
+    {
+      "file": "cnn_comparison.csv",
+      "bytes": 805
+    },
+    {
+      "file": "computational_comparison.csv",
+      "bytes": 2844
+    },
+    {
+      "file": "dataset_summary.csv",
+      "bytes": 411
+    },
+    {
+      "file": "hybrid_comparison.csv",
+      "bytes": 842
+    },
+    {
+      "file": "model_comparison.csv",
+      "bytes": 2197
+    },
+    {
+      "file": "oct_comparison.csv",
+      "bytes": 3119
+    },
+    {
+      "file": "oct_individual_comparison.csv",
+      "bytes": 2201
+    },
+    {
+      "file": "oct_sequence_comparison.csv",
+      "bytes": 1149
+    },
+    {
+      "file": "oct_severity_comparison.csv",
+      "bytes": 2103
+    },
+    {
+      "file": "rnn_comparison.csv",
+      "bytes": 581
+    }
+  ],
+  "statistical_files": [
+    {
+      "file": "confidence_intervals.csv",
+      "bytes": 46067
+    },
+    {
+      "file": "descriptive_statistics.csv",
+      "bytes": 86008
+    },
+    {
+      "file": "effect_sizes.csv",
+      "bytes": 11277
+    },
+    {
+      "file": "hypothesis_tests.csv",
+      "bytes": 85908
+    },
+    {
+      "file": "pairwise_comparisons.csv",
+      "bytes": 227533
+    },
+    {
+      "file": "statistical_summary.md",
+      "bytes": 804
+    }
+  ],
+  "reports": [
+    {
+      "file": "final_research_summary.md",
+      "bytes": 5517
+    },
+    {
+      "file": "fundus_results.md",
+      "bytes": 1417
+    },
+    {
+      "file": "oct_results.md",
+      "bytes": 2422
+    },
+    {
+      "file": "severity_results.md",
+      "bytes": 1315
+    }
+  ],
+  "figures_count": 57,
+  "figures": [
+    "accuracy_curves.png",
+    "cnn_comparison.png",
+    "confidence_intervals.png",
+    "confusion_matrices.png",
+    "dataset_class_distribution.png",
+    "fundus_3class_accuracy_curves.png",
+    "fundus_3class_confusion_matrices.png",
+    "fundus_3class_macro_f1_curves.png",
+    "fundus_3class_per_class_performance.png",
+    "fundus_3class_pr_curves.png",
+    "fundus_3class_roc_curves.png",
+    "fundus_3class_statistical_significance_heatmap.png",
+    "fundus_3class_training_loss_curves.png",
+    "fundus_3class_validation_loss_curves.png",
+    "hybrid_comparison.png",
+    "inference_time_comparison.png",
+    "macro_f1_curves.png",
+    "oct_individual_accuracy_curves.png",
+    "oct_individual_comparison.png",
+    "oct_individual_confusion_matrices.png",
+    "oct_individual_macro_f1_curves.png",
+    "oct_individual_per_class_performance.png",
+    "oct_individual_pr_curves.png",
+    "oct_individual_roc_curves.png",
+    "oct_individual_statistical_significance_heatmap.png",
+    "oct_individual_training_loss_curves.png",
+    "oct_individual_validation_loss_curves.png",
+    "oct_sequence_accuracy_curves.png",
+    "oct_sequence_comparison.png",
+    "oct_sequence_confusion_matrices.png",
+    "oct_sequence_macro_f1_curves.png",
+    "oct_sequence_per_class_performance.png",
+    "oct_sequence_pr_curves.png",
+    "oct_sequence_roc_curves.png",
+    "oct_sequence_statistical_significance_heatmap.png",
+    "oct_sequence_training_loss_curves.png",
+    "oct_sequence_validation_loss_curves.png",
+    "oct_severity_accuracy_curves.png",
+    "oct_severity_confusion_matrices.png",
+    "oct_severity_macro_f1_curves.png",
+    "oct_severity_per_class_performance.png",
+    "oct_severity_pr_curves.png",
+    "oct_severity_roc_curves.png",
+    "oct_severity_statistical_significance_heatmap.png",
+    "oct_severity_training_loss_curves.png",
+    "oct_severity_validation_loss_curves.png",
+    "overall_fundus_comparison.png",
+    "parameter_comparison.png",
+    "per_class_performance.png",
+    "pr_curves.png",
+    "rnn_comparison.png",
+    "roc_curves.png",
+    "severity_comparison.png",
+    "statistical_significance_heatmap.png",
+    "training_loss_curves.png",
+    "training_time_comparison.png",
+    "validation_loss_curves.png"
+  ],
+  "predictions_files_count": 366
+}

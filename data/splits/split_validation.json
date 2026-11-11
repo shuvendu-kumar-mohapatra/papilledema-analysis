@@ -1,0 +1,96 @@
+{
+  "seed": 42,
+  "fundus_3class": {
+    "task": "fundus_3class",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "split_counts": {
+      "train": 956,
+      "val": 206,
+      "test": 205
+    },
+    "class_by_split": {
+      "train": {
+        "Normal": 544,
+        "Papilledema": 206,
+        "Pseudopapilledema": 206
+      },
+      "val": {
+        "Normal": 117,
+        "Papilledema": 45,
+        "Pseudopapilledema": 44
+      },
+      "test": {
+        "Normal": 117,
+        "Papilledema": 44,
+        "Pseudopapilledema": 44
+      }
+    }
+  },
+  "oct_3class": {
+    "task": "oct_3class",
+    "passed": true,
+    "errors": [],
+    "warnings": [
+      "Single-subject OCT class 'Normal' (n_prefixes=1) uses contiguous spatial-block splitting across splits on sequences ['Normal__sabrenr__paren']; NOT patient-independent.",
+      "Single-subject OCT class 'Pseudopapilledema' (n_prefixes=1) uses contiguous spatial-block splitting across splits on sequences ['Pseudopapilledema__heshama__paren']; NOT patient-independent."
+    ],
+    "split_counts": {
+      "train": 774,
+      "val": 183,
+      "test": 183
+    },
+    "class_by_split": {
+      "train": {
+        "Papilledema": 603,
+        "Normal": 92,
+        "Pseudopapilledema": 79
+      },
+      "val": {
+        "Papilledema": 146,
+        "Normal": 20,
+        "Pseudopapilledema": 17
+      },
+      "test": {
+        "Papilledema": 146,
+        "Normal": 20,
+        "Pseudopapilledema": 17
+      }
+    }
+  },
+  "oct_severity": {
+    "task": "oct_severity",
+    "passed": true,
+    "errors": [],
+    "warnings": [
+      "Single-subject OCT class 'G1' (n_prefixes=1) uses contiguous spatial-block splitting across splits on sequences ['G1__hagerh__under6']; NOT patient-independent.",
+      "Single-subject OCT class 'G4' (n_prefixes=1) uses contiguous spatial-block splitting across splits on sequences ['G4__mostafaa__under6']; NOT patient-independent."
+    ],
+    "split_counts": {
+      "train": 531,
+      "val": 188,
+      "test": 176
+    },
+    "class_by_split": {
+      "train": {
+        "G2": 306,
+        "G3": 146,
+        "G4": 51,
+        "G1": 28
+      },
+      "val": {
+        "G2": 146,
+        "G3": 25,
+        "G4": 11,
+        "G1": 6
+      },
+      "test": {
+        "G2": 146,
+        "G3": 13,
+        "G4": 11,
+        "G1": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+dataset:
+  name: "fundus"
+  modality: "fundus"
+  task: "fundus_3class"
+  root: "data/raw/fundus"
+  classes: ["Normal", "Papilledema", "Pseudopapilledema"]
+  in_channels: 3
+  image_size: 224
+  use_clahe: false
+  normalize_mean: [0.485, 0.456, 0.406]
+  normalize_std: [0.229, 0.224, 0.225]
+  split_ratios: [0.70, 0.15, 0.15]
+  near_dup_threshold: 0.65
+  cross_class_conflict_threshold: 0.90
+  limitations:
+    - "Verified patient IDs are unavailable."
+    - "Repeated and near-duplicate eye images are grouped into clusters kept intact across splits."
+    - "Exact cross-class duplicates with conflicting labels are excluded from training/evaluation."
+    - "Cannot be described as verified patient-independent evaluation."
+
