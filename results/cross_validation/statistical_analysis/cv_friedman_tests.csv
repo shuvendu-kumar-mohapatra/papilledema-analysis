@@ -1,0 +1,21 @@
+track,metric,n_models,n_folds,friedman_chi2,p_value,kendalls_w,significant_unadj,caveat,p_adjusted_holm,significant_holm
+fundus_3class,macro_f1,10,5,38.323636,1.5248337991031915e-05,0.851636,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,4.574501397309574e-05,True
+fundus_3class,balanced_accuracy,10,5,36.970909,2.6634734779895883e-05,0.821576,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,7.990420433968765e-05,True
+fundus_3class,macro_recall,10,5,36.970909,2.6634734779895883e-05,0.821576,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,7.990420433968765e-05,True
+fundus_3class,macro_precision,10,5,37.32,2.3073065049454227e-05,0.829333,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,9.229226019781691e-05,True
+fundus_3class,weighted_f1,10,5,37.494545,2.1472847262114563e-05,0.833212,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,8.589138904845825e-05,True
+oct_individual,macro_f1,10,5,40.351899,6.560278668510598e-06,0.896709,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,2.6241114674042392e-05,True
+oct_individual,balanced_accuracy,10,5,38.201521,1.60383473102775e-05,0.848923,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,6.415338924111e-05,True
+oct_individual,macro_recall,10,5,38.201521,1.60383473102775e-05,0.848923,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,6.415338924111e-05,True
+oct_individual,macro_precision,10,5,29.870886,0.0004614721161322945,0.663797,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.000922944232264589,True
+oct_individual,weighted_f1,10,5,35.065823,5.801124446278379e-05,0.779241,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.00017403373338835136,True
+oct_sequence,macro_f1,5,5,16.510638,0.0024052036059779196,0.825532,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.0024052036059779196,True
+oct_sequence,balanced_accuracy,5,5,16.516129,0.0023993209843295943,0.825806,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.0023993209843295943,True
+oct_sequence,macro_recall,5,5,16.516129,0.0023993209843295943,0.825806,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.0023993209843295943,True
+oct_sequence,macro_precision,5,5,12.255319,0.01555027984037737,0.612766,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.01555027984037737,True
+oct_sequence,weighted_f1,5,5,13.021277,0.011172299282338724,0.651064,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.011172299282338724,True
+oct_severity,macro_f1,10,5,34.44,7.477036556365617e-05,0.765333,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.00014954073112731235,True
+oct_severity,balanced_accuracy,10,5,34.134545,8.459934120274475e-05,0.758545,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.0001691986824054895,True
+oct_severity,macro_recall,10,5,34.134545,8.459934120274475e-05,0.758545,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.0001691986824054895,True
+oct_severity,macro_precision,10,5,35.792727,4.314819195737091e-05,0.795394,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.00012944457587211273,True
+oct_severity,weighted_f1,10,5,30.949091,0.000302043668661454,0.687758,True,5 CV folds share overlapping ~75% training subsets; treat as fold-level block omnibus.,0.000604087337322908,True

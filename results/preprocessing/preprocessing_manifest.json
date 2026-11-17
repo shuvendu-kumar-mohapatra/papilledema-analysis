@@ -1,0 +1,31 @@
+{
+  "output_dir": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing",
+  "figures_dir": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures",
+  "fundus_images_analyzed": 1367,
+  "oct_images_analyzed": 1140,
+  "oct_sequence_windows_whole": 146,
+  "oct_sequence_slices_used_whole": 1129,
+  "oct_sequence_windows_fixed_split": {
+    "train": 101,
+    "val": 23,
+    "test": 23
+  },
+  "figures_generated": [
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig01_dataset_class_distribution.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig01_dataset_class_distribution.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig02_fundus_before_after_grid.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig02_fundus_before_after_grid.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig03_oct_individual_before_after_grid.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig03_oct_individual_before_after_grid.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig04_oct_sequence_preprocessing_grid.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig04_oct_sequence_preprocessing_grid.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig05_oct_severity_before_after_grid.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig05_oct_severity_before_after_grid.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig06_image_resolution_analysis.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig06_image_resolution_analysis.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig07_pixel_intensity_distributions.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig07_pixel_intensity_distributions.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig08_contrast_and_quality_analysis.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\preprocessing\\figures\\fig08_contrast_and_quality_analysis.pdf"
+  ]
+}

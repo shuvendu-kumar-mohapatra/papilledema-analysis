@@ -1,0 +1,120 @@
+{
+  "exp_id": "cv__oct_individual__bilstm__fold1__seed42",
+  "checkpoint_epoch": 8,
+  "best_val_macro_f1": 0.6341861851542344,
+  "metrics": {
+    "accuracy": 0.333333,
+    "balanced_accuracy": 0.643451,
+    "macro_precision": 0.471981,
+    "macro_recall": 0.643451,
+    "macro_f1": 0.339062,
+    "weighted_precision": 0.811254,
+    "weighted_recall": 0.333333,
+    "weighted_f1": 0.319663,
+    "macro_sensitivity": 0.643451,
+    "macro_specificity": 0.745598,
+    "roc_auc_ovr": 0.877698,
+    "pr_auc_ovr": 0.810088,
+    "per_class_auc": {
+      "Normal": 0.913043,
+      "Papilledema": 0.809891,
+      "Pseudopapilledema": 0.910159
+    },
+    "per_class_pr_auc": {
+      "Normal": 0.813092,
+      "Papilledema": 0.938182,
+      "Pseudopapilledema": 0.678991
+    },
+    "confusion_matrix": [
+      [
+        26,
+        1,
+        0
+      ],
+      [
+        89,
+        34,
+        61
+      ],
+      [
+        5,
+        0,
+        18
+      ]
+    ],
+    "per_class": {
+      "Normal": {
+        "precision": 0.216667,
+        "recall": 0.962963,
+        "f1": 0.353741,
+        "sensitivity": 0.962963,
+        "specificity": 0.545894,
+        "support": 27,
+        "tp": 26,
+        "fp": 94,
+        "fn": 1,
+        "tn": 113
+      },
+      "Papilledema": {
+        "precision": 0.971429,
+        "recall": 0.184783,
+        "f1": 0.310502,
+        "sensitivity": 0.184783,
+        "specificity": 0.98,
+        "support": 184,
+        "tp": 34,
+        "fp": 1,
+        "fn": 150,
+        "tn": 49
+      },
+      "Pseudopapilledema": {
+        "precision": 0.227848,
+        "recall": 0.782609,
+        "f1": 0.352941,
+        "sensitivity": 0.782609,
+        "specificity": 0.7109,
+        "support": 23,
+        "tp": 18,
+        "fp": 61,
+        "fn": 5,
+        "tn": 150
+      }
+    },
+    "num_samples": 234
+  },
+  "parameters": {
+    "total_params": 853059,
+    "trainable_params": 853059
+  },
+  "inference_total_sec": 1.0569,
+  "inference_latency_ms": 4.5165,
+  "throughput_samples_per_sec": 221.41,
+  "error_analysis": {
+    "total_errors": 156,
+    "error_rate": 0.666667,
+    "low_confidence_count": 227,
+    "high_confidence_error_count": 0,
+    "confused_pairs": {
+      "Papilledema -> Normal": 89,
+      "Papilledema -> Pseudopapilledema": 61,
+      "Pseudopapilledema -> Normal": 5,
+      "Normal -> Papilledema": 1
+    },
+    "predictions_csv": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\cross_validation\\predictions\\cv__oct_individual__bilstm__fold1__seed42_predictions.csv",
+    "errors_csv": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\cross_validation\\predictions\\cv__oct_individual__bilstm__fold1__seed42_errors.csv"
+  },
+  "cv_exp_id": "cv__oct_individual__bilstm__fold1__seed42",
+  "track": "oct_individual",
+  "model": "bilstm",
+  "category": "rnn",
+  "fold": 1,
+  "val_fold": 2,
+  "seed": 42,
+  "best_epoch": 8,
+  "epochs_completed": 15,
+  "train_duration_sec": 134.38,
+  "peak_gpu_mem_mb": 152.66,
+  "ckpt_size_mb": 3.265,
+  "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints_cv\\cv__oct_individual__bilstm__fold1__seed42\\best.pt",
+  "history_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints_cv\\cv__oct_individual__bilstm__fold1__seed42\\history.csv"
+}

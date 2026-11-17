@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__oct_individual__resnet50_bilstm__fold4__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T16:53:37.877721+00:00",
+  "completion_time": "2026-11-12T16:56:33.108909+00:00",
+  "train_duration_sec": 163.285,
+  "best_epoch": 16,
+  "best_val_macro_f1": 0.8388893604579879,
+  "test_macro_f1": 0.871218,
+  "peak_gpu_mem_mb": 1099.9,
+  "ckpt_size_mb": 93.536
+}

@@ -1,0 +1,9 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+oct_Normal_sabrenr_(65),data/raw/OCT/Original Data/OCT/Normal/sabrenr (65).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.995607,False,True,0.003344,0.995607,0.001049
+oct_G3_v000,data/raw/OCT/Original Data/OCT/Papilledema/G3/v000.jpg,G3__v__cat3,1,2,Papilledema,Pseudopapilledema,False,0.61355,False,False,0.005487,0.380962,0.61355
+oct_G3_v006,data/raw/OCT/Original Data/OCT/Papilledema/G3/v006.jpg,G3__v__cat3,1,2,Papilledema,Pseudopapilledema,False,0.981938,False,True,0.000475,0.017588,0.981938
+oct_G3_v008,data/raw/OCT/Original Data/OCT/Papilledema/G3/v008.jpg,G3__v__cat3,1,2,Papilledema,Pseudopapilledema,False,0.930161,False,True,0.001864,0.067975,0.930161
+oct_G3_v009,data/raw/OCT/Original Data/OCT/Papilledema/G3/v009.jpg,G3__v__cat3,1,2,Papilledema,Pseudopapilledema,False,0.965589,False,True,0.00048,0.033932,0.965589
+oct_G3_v010,data/raw/OCT/Original Data/OCT/Papilledema/G3/v010.jpg,G3__v__cat3,1,2,Papilledema,Pseudopapilledema,False,0.96075,False,True,0.000514,0.038736,0.96075
+oct_G3_v011,data/raw/OCT/Original Data/OCT/Papilledema/G3/v011.jpg,G3__v__cat3,1,2,Papilledema,Pseudopapilledema,False,0.99386,False,True,0.000122,0.006017,0.99386
+oct_G3_v012,data/raw/OCT/Original Data/OCT/Papilledema/G3/v012.jpg,G3__v__cat3,1,2,Papilledema,Pseudopapilledema,False,0.889932,False,True,0.000406,0.109661,0.889932

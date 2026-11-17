@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__oct_sequence__efficientnet_b0_bilstm__fold3__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T17:39:34.447238+00:00",
+  "completion_time": "2026-11-12T17:40:40.163059+00:00",
+  "train_duration_sec": 63.028,
+  "best_epoch": 4,
+  "best_val_macro_f1": 0.8991228070175438,
+  "test_macro_f1": 1.0,
+  "peak_gpu_mem_mb": 1535.07,
+  "ckpt_size_mb": 18.398
+}

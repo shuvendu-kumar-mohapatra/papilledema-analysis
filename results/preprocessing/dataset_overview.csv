@@ -1,0 +1,5 @@
+track,modality,raw_retained_samples,excluded_samples,raw_color_modes,raw_width_range,raw_height_range,target_size,target_channels,use_clahe_default,normalization_mean,normalization_std
+fundus_3class,Fundus RGB,1367,2,RGB,240-240,208-240,224x224,3,False,"[0.485, 0.456, 0.406]","[0.229, 0.224, 0.225]"
+oct_individual,OCT Grayscale,1140,1,RGB,381-765,596-596,224x224,1,False,[0.5],[0.5]
+oct_sequence,OCT Sequence (T<=8),146,11,RGB,381-765,596-596,8x1x224x224,1,False,[0.5],[0.5]
+oct_severity,OCT Grayscale (G1-G4 exploratory),895,0,RGB,381-765,596-596,224x224,1,False,[0.5],[0.5]

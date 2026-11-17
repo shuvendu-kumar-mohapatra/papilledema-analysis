@@ -1,0 +1,7 @@
+track,feature_set,classifier,cv_scheme,mean_fold_macro_f1,std_fold_macro_f1,oof_macro_f1,oof_accuracy,oof_balanced_accuracy
+fundus_3class,Handcrafted (86 scalar features),LogisticRegression,StratifiedGroupKFold (cluster_id),0.8761034546003896,0.01962068912998565,0.8767082611570686,0.8939283101682517,0.8885973281735683
+fundus_3class,Handcrafted (86 scalar features),RandomForest,StratifiedGroupKFold (cluster_id),0.8638012075772835,0.012843865346051538,0.8644317047160676,0.8836869056327725,0.8740965545150859
+oct_individual,Handcrafted (48 scalar features),LogisticRegression,Contiguous Slice-Block + Prefix Balanced 5-Fold (NOT patient-independent),0.6206766962902165,0.05912321585277664,0.6196131933836851,0.7508771929824561,0.7089886105830141
+oct_individual,Handcrafted (48 scalar features),RandomForest,Contiguous Slice-Block + Prefix Balanced 5-Fold (NOT patient-independent),0.5657198870103871,0.05679103330289801,0.5675353925353925,0.743859649122807,0.577294725072448
+oct_severity,Handcrafted (48 scalar features),LogisticRegression,Contiguous Slice-Block + Prefix Balanced 5-Fold (NOT patient-independent),0.643789135350252,0.16663805754199765,0.611354125062249,0.6547486033519553,0.7260405690200211
+oct_severity,Handcrafted (48 scalar features),RandomForest,Contiguous Slice-Block + Prefix Balanced 5-Fold (NOT patient-independent),0.5191622711413604,0.2131538067762728,0.5106360832852134,0.553072625698324,0.5556243414120126

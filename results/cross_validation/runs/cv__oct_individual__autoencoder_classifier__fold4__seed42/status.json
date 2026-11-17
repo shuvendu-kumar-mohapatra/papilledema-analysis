@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__oct_individual__autoencoder_classifier__fold4__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T17:18:08.456843+00:00",
+  "completion_time": "2026-11-12T17:20:23.700512+00:00",
+  "train_duration_sec": 117.857,
+  "best_epoch": 22,
+  "best_val_macro_f1": 0.9352168299536721,
+  "test_macro_f1": 0.827347,
+  "peak_gpu_mem_mb": 155.35,
+  "ckpt_size_mb": 2.75
+}

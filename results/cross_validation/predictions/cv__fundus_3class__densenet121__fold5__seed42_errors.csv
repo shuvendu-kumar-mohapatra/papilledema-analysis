@@ -1,0 +1,13 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+fundus_Normal_243,data/raw/fundus/Normal/243.jpg,fundus_cluster_0157,0,2,Normal,Pseudopapilledema,False,0.994969,False,True,0.004997,3.4e-05,0.994969
+fundus_Normal_28,data/raw/fundus/Normal/28.jpg,fundus_cluster_0197,0,2,Normal,Pseudopapilledema,False,0.837326,False,True,0.151154,0.01152,0.837326
+fundus_Normal_411,data/raw/fundus/Normal/411.jpg,fundus_cluster_0344,0,2,Normal,Pseudopapilledema,False,0.998893,False,True,0.0011,7e-06,0.998893
+fundus_Normal_45,data/raw/fundus/Normal/45.jpg,fundus_cluster_0386,0,2,Normal,Pseudopapilledema,False,0.999918,False,True,7.9e-05,3e-06,0.999918
+fundus_Normal_613,data/raw/fundus/Normal/613.jpg,fundus_cluster_0567,0,2,Normal,Pseudopapilledema,False,0.619006,False,False,0.373982,0.007012,0.619006
+fundus_Normal_769,data/raw/fundus/Normal/769.jpg,fundus_cluster_0739,0,2,Normal,Pseudopapilledema,False,0.953608,False,True,0.043398,0.002994,0.953608
+fundus_Papilledema_184,data/raw/fundus/Papilledema/184.jpg,fundus_cluster_0860,1,2,Papilledema,Pseudopapilledema,False,0.694384,False,False,0.001818,0.303798,0.694384
+fundus_Papilledema_256,data/raw/fundus/Papilledema/256.jpg,fundus_cluster_0938,1,2,Papilledema,Pseudopapilledema,False,0.97053,False,True,0.001023,0.028447,0.97053
+fundus_Papilledema_83,data/raw/fundus/Papilledema/83.jpg,fundus_cluster_1035,1,2,Papilledema,Pseudopapilledema,False,0.90314,False,True,0.000171,0.096689,0.90314
+fundus_Pseudopapilledema_106,data/raw/fundus/Pseudopapilledema/106.jpg,fundus_cluster_1059,2,0,Pseudopapilledema,Normal,False,0.514923,True,False,0.514923,0.000878,0.484198
+fundus_Pseudopapilledema_294,data/raw/fundus/Pseudopapilledema/294.jpg,fundus_cluster_1208,2,0,Pseudopapilledema,Normal,False,0.989551,False,True,0.989551,0.000681,0.009768
+fundus_Pseudopapilledema_5,data/raw/fundus/Pseudopapilledema/5.jpg,fundus_cluster_1230,2,0,Pseudopapilledema,Normal,False,0.777096,False,False,0.777096,0.011493,0.211411

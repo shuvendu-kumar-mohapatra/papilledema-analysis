@@ -32,7 +32,7 @@ data/splits/*.csv
 results/predictions/
 
 # Heavy model checkpoints, per-run experiment directories, runtime logs, and smoke artifacts
-checkpoints/
+checkpoints*/
 experiments/
 logs/
 *__smoke*

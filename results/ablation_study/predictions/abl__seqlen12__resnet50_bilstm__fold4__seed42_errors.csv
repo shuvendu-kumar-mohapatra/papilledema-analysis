@@ -1,0 +1,3 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+G3__v__cat3__w000,data/raw/OCT/Original Data/OCT/Papilledema/G3/v000.jpg,G3__v__cat3,1,2,Papilledema,Pseudopapilledema,False,0.998382,False,True,0.000514,0.001105,0.998382
+Pseudopapilledema__heshama__under6__w024,data/raw/OCT/Original Data/OCT/Pseudo papilledema/heshama_000024.jpg,Pseudopapilledema__heshama__under6,2,1,Pseudopapilledema,Papilledema,False,0.547127,True,False,0.0126,0.547127,0.440273

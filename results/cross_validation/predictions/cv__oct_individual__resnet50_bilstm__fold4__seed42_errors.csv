@@ -1,0 +1,23 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+oct_G2_mostafaa000,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa000.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.61812,False,False,0.61812,0.381557,0.000322
+oct_G2_mostafaa001,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa001.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.979172,False,True,0.979172,0.020743,8.5e-05
+oct_G2_mostafaa002,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa002.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.634562,False,False,0.634562,0.365111,0.000328
+oct_G2_mostafaa003,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa003.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.941198,False,True,0.941198,0.058718,8.5e-05
+oct_G2_mostafaa004,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa004.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.999296,False,True,0.999296,0.000674,3e-05
+oct_G2_mostafaa005,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa005.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.999825,False,True,0.999825,0.000129,4.6e-05
+oct_G2_mostafaa006,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa006.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.999651,False,True,0.999651,0.000305,4.4e-05
+oct_G2_mostafaa007,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa007.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.999795,False,True,0.999795,0.000122,8.4e-05
+oct_G2_mostafaa008,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa008.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.999813,False,True,0.999813,7e-05,0.000117
+oct_G2_mostafaa009,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa009.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.999904,False,True,0.999904,3.9e-05,5.7e-05
+oct_G2_mostafaa010,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa010.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.644951,False,False,0.644951,0.353749,0.0013
+oct_G2_mostafaa011,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa011.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.507773,True,False,0.507773,0.49215,7.7e-05
+oct_G2_mostafaa012,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa012.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.697127,False,False,0.697127,0.302773,0.0001
+oct_G4_mostafaa_000000,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000000.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.999827,False,True,0.999827,0.000156,1.6e-05
+oct_G4_mostafaa_000001,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000001.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.999898,False,True,0.999898,4.9e-05,5.4e-05
+oct_G4_mostafaa_000002,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000002.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.955728,False,True,0.955728,0.044222,4.9e-05
+oct_G4_mostafaa_000005,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000005.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.791552,False,False,0.791552,0.208108,0.00034
+oct_G4_mostafaa_000060,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000060.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.984809,False,True,0.984809,0.015167,2.4e-05
+oct_G4_mostafaa_000062,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000062.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.533336,True,False,0.533336,0.464277,0.002387
+oct_G4_mostafaa_000066,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000066.jpg,G4__mostafaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.708352,False,False,0.033718,0.25793,0.708352
+oct_G4_mostafaa_000070,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000070.jpg,G4__mostafaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.971021,False,True,0.006672,0.022307,0.971021
+oct_G4_mostafaa_000072,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000072.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.895832,False,True,0.895832,0.100755,0.003412

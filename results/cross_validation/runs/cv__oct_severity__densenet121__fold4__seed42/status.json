@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__oct_severity__densenet121__fold4__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T18:04:35.627907+00:00",
+  "completion_time": "2026-11-12T18:06:11.869431+00:00",
+  "train_duration_sec": 91.671,
+  "best_epoch": 7,
+  "best_val_macro_f1": 0.4773603113134005,
+  "test_macro_f1": 0.70662,
+  "peak_gpu_mem_mb": 1195.76,
+  "ckpt_size_mb": 27.097
+}

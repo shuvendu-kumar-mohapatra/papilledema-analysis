@@ -1,0 +1,12 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+oct_Normal_sabrenr_(1),data/raw/OCT/Original Data/OCT/Normal/sabrenr (1).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.919073,False,True,0.073965,0.919073,0.006963
+oct_Normal_sabrenr_(2),data/raw/OCT/Original Data/OCT/Normal/sabrenr (2).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.804393,False,True,0.191153,0.804393,0.004454
+oct_Normal_sabrenr_(3),data/raw/OCT/Original Data/OCT/Normal/sabrenr (3).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.758354,False,False,0.239795,0.758354,0.001851
+oct_Normal_sabrenr_(4),data/raw/OCT/Original Data/OCT/Normal/sabrenr (4).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.891703,False,True,0.104184,0.891703,0.004113
+oct_Normal_sabrenr_(5),data/raw/OCT/Original Data/OCT/Normal/sabrenr (5).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.766936,False,False,0.230613,0.766936,0.002451
+oct_Normal_sabrenr_(6),data/raw/OCT/Original Data/OCT/Normal/sabrenr (6).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.547482,True,False,0.451227,0.547482,0.001291
+oct_Normal_sabrenr_(7),data/raw/OCT/Original Data/OCT/Normal/sabrenr (7).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.745722,False,False,0.244118,0.745722,0.01016
+oct_Normal_sabrenr_(8),data/raw/OCT/Original Data/OCT/Normal/sabrenr (8).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.903518,False,True,0.094581,0.903518,0.001901
+oct_Normal_sabrenr_(11),data/raw/OCT/Original Data/OCT/Normal/sabrenr (11).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.518796,True,False,0.478871,0.518796,0.002333
+oct_Normal_sabrenr_(12),data/raw/OCT/Original Data/OCT/Normal/sabrenr (12).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.499266,True,False,0.498292,0.499266,0.002442
+oct_Normal_sabrenr_(16),data/raw/OCT/Original Data/OCT/Normal/sabrenr (16).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.517082,True,False,0.481503,0.517082,0.001415

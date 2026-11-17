@@ -1,0 +1,18 @@
+{
+  "ablation_group": "oct_sequence_length",
+  "abl_id": "abl__seqlen12__resnet50_bilstm__fold5__seed42",
+  "track": "oct_sequence",
+  "model": "resnet50_bilstm",
+  "seq_len": 12,
+  "fold": 5,
+  "n_windows": 21,
+  "total_params": 24439747,
+  "trainable_params": 24439747,
+  "train_duration_sec": 84.067,
+  "best_epoch": 7,
+  "accuracy": 0.857143,
+  "balanced_accuracy": 0.941176,
+  "macro_f1": 0.824885,
+  "weighted_f1": 0.880843,
+  "mcc": 0.714435
+}

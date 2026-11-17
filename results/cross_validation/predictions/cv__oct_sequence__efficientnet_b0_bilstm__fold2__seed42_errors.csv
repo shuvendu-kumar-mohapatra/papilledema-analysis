@@ -1,0 +1,4 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+G2__mostafaa__cat3__w000,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa000.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.754289,False,False,0.754289,0.24536,0.000351
+G4__mostafaa__under6__w000,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000000.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.96651,False,True,0.96651,0.032959,0.00053
+G4__mostafaa__under6__w064,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000064.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.982232,False,True,0.982232,0.005129,0.012639

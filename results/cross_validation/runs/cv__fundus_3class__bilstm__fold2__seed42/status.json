@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__fundus_3class__bilstm__fold2__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T14:24:55.501592+00:00",
+  "completion_time": "2026-11-12T14:29:29.212351+00:00",
+  "train_duration_sec": 271.737,
+  "best_epoch": 20,
+  "best_val_macro_f1": 0.7735151531877117,
+  "test_macro_f1": 0.777765,
+  "peak_gpu_mem_mb": 165.36,
+  "ckpt_size_mb": 4.272
+}

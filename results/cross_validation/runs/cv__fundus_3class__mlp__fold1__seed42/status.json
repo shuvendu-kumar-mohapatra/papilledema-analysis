@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__fundus_3class__mlp__fold1__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T15:21:18.609481+00:00",
+  "completion_time": "2026-11-12T15:23:32.574505+00:00",
+  "train_duration_sec": 132.705,
+  "best_epoch": 22,
+  "best_val_macro_f1": 0.8674442467545916,
+  "test_macro_f1": 0.793107,
+  "peak_gpu_mem_mb": 85.94,
+  "ckpt_size_mb": 0.893
+}

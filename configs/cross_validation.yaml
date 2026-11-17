@@ -1,0 +1,17 @@
+cross_validation:
+  n_folds: 5
+  seed: 42
+  val_strategy: "next_fold"  # Outer fold k = test; fold (k+1)%5 = val; remaining 3 folds = train
+  tracks:
+    - fundus_3class
+    - oct_individual
+    - oct_sequence
+    - oct_severity
+  paths:
+    splits_dir: "results/cross_validation/splits"
+    checkpoints_dir: "checkpoints_cv"
+    predictions_dir: "results/cross_validation/predictions"
+    runs_dir: "results/cross_validation/runs"
+    logs_dir: "logs/cv"
+    output_dir: "results/cross_validation"
+

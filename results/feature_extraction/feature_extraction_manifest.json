@@ -1,0 +1,193 @@
+{
+  "output_dir": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction",
+  "figures_dir": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures",
+  "fundus_handcrafted_dim": 86,
+  "fundus_hog_dim": 1296,
+  "oct_handcrafted_dim": 48,
+  "oct_hog_dim": 1296,
+  "deep_embeddings": [
+    {
+      "track": "fundus_3class",
+      "modality": "fundus",
+      "backbone": "resnet50",
+      "embedding_dim": 2048,
+      "n_samples": 1367,
+      "checkpoint_loaded": true,
+      "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints\\fundus_3class__resnet50__seed42\\best.pt",
+      "l2_norm_mean": 23.974180221557617,
+      "l2_norm_std": 9.85658073425293
+    },
+    {
+      "track": "fundus_3class",
+      "modality": "fundus",
+      "backbone": "densenet121",
+      "embedding_dim": 1024,
+      "n_samples": 1367,
+      "checkpoint_loaded": true,
+      "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints\\fundus_3class__densenet121__seed42\\best.pt",
+      "l2_norm_mean": 28.987577438354492,
+      "l2_norm_std": 6.537064552307129
+    },
+    {
+      "track": "fundus_3class",
+      "modality": "fundus",
+      "backbone": "efficientnet_b0",
+      "embedding_dim": 1280,
+      "n_samples": 1367,
+      "checkpoint_loaded": true,
+      "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints\\fundus_3class__efficientnet_b0__seed42\\best.pt",
+      "l2_norm_mean": 19.026281356811523,
+      "l2_norm_std": 5.165177345275879
+    },
+    {
+      "track": "oct_individual",
+      "modality": "oct",
+      "backbone": "resnet50",
+      "embedding_dim": 2048,
+      "n_samples": 1140,
+      "checkpoint_loaded": true,
+      "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints\\oct_individual__resnet50__seed42\\best.pt",
+      "l2_norm_mean": 22.544172286987305,
+      "l2_norm_std": 6.64455509185791
+    },
+    {
+      "track": "oct_individual",
+      "modality": "oct",
+      "backbone": "densenet121",
+      "embedding_dim": 1024,
+      "n_samples": 1140,
+      "checkpoint_loaded": true,
+      "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints\\oct_individual__densenet121__seed42\\best.pt",
+      "l2_norm_mean": 33.21058654785156,
+      "l2_norm_std": 5.915247440338135
+    },
+    {
+      "track": "oct_individual",
+      "modality": "oct",
+      "backbone": "efficientnet_b0",
+      "embedding_dim": 1280,
+      "n_samples": 1140,
+      "checkpoint_loaded": true,
+      "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints\\oct_individual__efficientnet_b0__seed42\\best.pt",
+      "l2_norm_mean": 15.757291793823242,
+      "l2_norm_std": 4.868091583251953
+    },
+    {
+      "track": "oct_severity",
+      "modality": "oct",
+      "backbone": "resnet50",
+      "embedding_dim": 2048,
+      "n_samples": 895,
+      "checkpoint_loaded": true,
+      "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints\\oct_severity__resnet50__seed42\\best.pt",
+      "l2_norm_mean": 24.24858283996582,
+      "l2_norm_std": 8.021712303161621
+    },
+    {
+      "track": "oct_severity",
+      "modality": "oct",
+      "backbone": "densenet121",
+      "embedding_dim": 1024,
+      "n_samples": 895,
+      "checkpoint_loaded": true,
+      "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints\\oct_severity__densenet121__seed42\\best.pt",
+      "l2_norm_mean": 26.893199920654297,
+      "l2_norm_std": 6.37868070602417
+    },
+    {
+      "track": "oct_severity",
+      "modality": "oct",
+      "backbone": "efficientnet_b0",
+      "embedding_dim": 1280,
+      "n_samples": 895,
+      "checkpoint_loaded": true,
+      "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints\\oct_severity__efficientnet_b0__seed42\\best.pt",
+      "l2_norm_mean": 17.008716583251953,
+      "l2_norm_std": 5.4141058921813965
+    }
+  ],
+  "handcrafted_ml_baseline": [
+    {
+      "track": "fundus_3class",
+      "feature_set": "Handcrafted (86 scalar features)",
+      "classifier": "LogisticRegression",
+      "cv_scheme": "StratifiedGroupKFold (cluster_id)",
+      "mean_fold_macro_f1": 0.8761034546003896,
+      "std_fold_macro_f1": 0.01962068912998565,
+      "oof_macro_f1": 0.8767082611570686,
+      "oof_accuracy": 0.8939283101682517,
+      "oof_balanced_accuracy": 0.8885973281735683
+    },
+    {
+      "track": "fundus_3class",
+      "feature_set": "Handcrafted (86 scalar features)",
+      "classifier": "RandomForest",
+      "cv_scheme": "StratifiedGroupKFold (cluster_id)",
+      "mean_fold_macro_f1": 0.8638012075772835,
+      "std_fold_macro_f1": 0.012843865346051538,
+      "oof_macro_f1": 0.8644317047160676,
+      "oof_accuracy": 0.8836869056327725,
+      "oof_balanced_accuracy": 0.8740965545150859
+    },
+    {
+      "track": "oct_individual",
+      "feature_set": "Handcrafted (48 scalar features)",
+      "classifier": "LogisticRegression",
+      "cv_scheme": "Contiguous Slice-Block + Prefix Balanced 5-Fold (NOT patient-independent)",
+      "mean_fold_macro_f1": 0.6206766962902165,
+      "std_fold_macro_f1": 0.05912321585277664,
+      "oof_macro_f1": 0.6196131933836851,
+      "oof_accuracy": 0.7508771929824561,
+      "oof_balanced_accuracy": 0.7089886105830141
+    },
+    {
+      "track": "oct_individual",
+      "feature_set": "Handcrafted (48 scalar features)",
+      "classifier": "RandomForest",
+      "cv_scheme": "Contiguous Slice-Block + Prefix Balanced 5-Fold (NOT patient-independent)",
+      "mean_fold_macro_f1": 0.5657198870103871,
+      "std_fold_macro_f1": 0.05679103330289801,
+      "oof_macro_f1": 0.5675353925353925,
+      "oof_accuracy": 0.743859649122807,
+      "oof_balanced_accuracy": 0.577294725072448
+    },
+    {
+      "track": "oct_severity",
+      "feature_set": "Handcrafted (48 scalar features)",
+      "classifier": "LogisticRegression",
+      "cv_scheme": "Contiguous Slice-Block + Prefix Balanced 5-Fold (NOT patient-independent)",
+      "mean_fold_macro_f1": 0.643789135350252,
+      "std_fold_macro_f1": 0.16663805754199765,
+      "oof_macro_f1": 0.611354125062249,
+      "oof_accuracy": 0.6547486033519553,
+      "oof_balanced_accuracy": 0.7260405690200211
+    },
+    {
+      "track": "oct_severity",
+      "feature_set": "Handcrafted (48 scalar features)",
+      "classifier": "RandomForest",
+      "cv_scheme": "Contiguous Slice-Block + Prefix Balanced 5-Fold (NOT patient-independent)",
+      "mean_fold_macro_f1": 0.5191622711413604,
+      "std_fold_macro_f1": 0.2131538067762728,
+      "oof_macro_f1": 0.5106360832852134,
+      "oof_accuracy": 0.553072625698324,
+      "oof_balanced_accuracy": 0.5556243414120126
+    }
+  ],
+  "figures_generated": [
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig01_handcrafted_feature_distributions.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig01_handcrafted_feature_distributions.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig02_handcrafted_correlation_heatmap.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig02_handcrafted_correlation_heatmap.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig03_pca_scree_variance.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig03_pca_scree_variance.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig04_fundus_feature_space_2d.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig04_fundus_feature_space_2d.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig05_oct_feature_space_2d.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig05_oct_feature_space_2d.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig06_oct_severity_feature_space_2d.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig06_oct_severity_feature_space_2d.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig07_feature_importance_and_rf_baseline.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\feature_extraction\\figures\\fig07_feature_importance_and_rf_baseline.pdf"
+  ]
+}

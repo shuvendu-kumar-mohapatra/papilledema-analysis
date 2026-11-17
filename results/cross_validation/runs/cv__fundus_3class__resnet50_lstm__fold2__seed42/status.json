@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__fundus_3class__resnet50_lstm__fold2__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T14:46:02.779628+00:00",
+  "completion_time": "2026-11-12T14:48:18.392751+00:00",
+  "train_duration_sec": 127.487,
+  "best_epoch": 8,
+  "best_val_macro_f1": 0.9806461427820651,
+  "test_macro_f1": 0.964895,
+  "peak_gpu_mem_mb": 1098.12,
+  "ckpt_size_mb": 92.803
+}

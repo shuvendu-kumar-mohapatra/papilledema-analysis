@@ -1,0 +1,11 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+G2__mostafaa__cat3__w000,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa000.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.998598,False,True,0.998598,0.001088,0.000314
+G2__mostafaa__cat3__w004,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa004.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.970677,False,True,0.970677,0.027847,0.001477
+G2__mostafaa__cat3__w008,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa008.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.996726,False,True,0.996726,0.002483,0.000791
+G2__mostafaa__cat3__w012,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa012.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.988575,False,True,0.988575,0.010987,0.000438
+G2__mostafaa__cat3__w016,data/raw/OCT/Original Data/OCT/Papilledema/G2/mostafaa016.jpg,G2__mostafaa__cat3,1,0,Papilledema,Normal,False,0.610091,False,False,0.610091,0.389315,0.000593
+G4__mostafaa__under6__w000,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000000.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.995731,False,True,0.995731,0.003929,0.00034
+G4__mostafaa__under6__w004,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000004.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.836384,False,True,0.836384,0.16214,0.001476
+G4__mostafaa__under6__w012,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000012.jpg,G4__mostafaa__under6,1,0,Papilledema,Normal,False,0.669782,False,False,0.669782,0.328344,0.001874
+G4__mostafaa__under6__w064,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000064.jpg,G4__mostafaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.988194,False,True,0.000307,0.011499,0.988194
+G4__mostafaa__under6__w068,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000068.jpg,G4__mostafaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.996175,False,True,0.00019,0.003635,0.996175

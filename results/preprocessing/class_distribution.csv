@@ -1,0 +1,14 @@
+track,class,count,pct,unit,notes
+fundus_3class,Normal,778,56.91,image,"1,367 retained (2 cross-class duplicates excluded)"
+fundus_3class,Papilledema,295,21.58,image,"1,367 retained (2 cross-class duplicates excluded)"
+fundus_3class,Pseudopapilledema,294,21.51,image,"1,367 retained (2 cross-class duplicates excluded)"
+oct_individual,Normal,132,11.58,B-scan,"1,140 retained (1 IR/SLO image excluded)"
+oct_individual,Papilledema,895,78.51,B-scan,"1,140 retained (1 IR/SLO image excluded)"
+oct_individual,Pseudopapilledema,113,9.91,B-scan,"1,140 retained (1 IR/SLO image excluded)"
+oct_sequence,Normal,17,11.64,window (8-slice max),146 whole-dataset windows (147 in fixed-split train/val/test)
+oct_sequence,Papilledema,114,78.08,window (8-slice max),146 whole-dataset windows (147 in fixed-split train/val/test)
+oct_sequence,Pseudopapilledema,15,10.27,window (8-slice max),146 whole-dataset windows (147 in fixed-split train/val/test)
+oct_severity,G1,40,4.47,B-scan (exploratory),Folder-derived labels only; not clinically validated
+oct_severity,G2,598,66.82,B-scan (exploratory),Folder-derived labels only; not clinically validated
+oct_severity,G3,184,20.56,B-scan (exploratory),Folder-derived labels only; not clinically validated
+oct_severity,G4,73,8.16,B-scan (exploratory),Folder-derived labels only; not clinically validated

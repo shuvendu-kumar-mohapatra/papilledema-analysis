@@ -1,0 +1,17 @@
+{
+  "ablation_group": "cnn_backbone_trainability",
+  "abl_id": "abl__bbmode__oct_individual__densenet121__partial__fold5__seed42",
+  "track": "oct_individual",
+  "model": "densenet121",
+  "backbone_mode": "partial",
+  "fold": 5,
+  "total_params": 6950659,
+  "trainable_params": 6950659,
+  "train_duration_sec": 72.835,
+  "best_epoch": 3,
+  "accuracy": 0.935743,
+  "balanced_accuracy": 0.973466,
+  "macro_f1": 0.890031,
+  "weighted_f1": 0.939148,
+  "mcc": 0.8413
+}

@@ -1,0 +1,14 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+oct_Normal_sabrenr_(36),data/raw/OCT/Original Data/OCT/Normal/sabrenr (36).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.718637,False,False,0.237909,0.718637,0.043454
+oct_Normal_sabrenr_(39),data/raw/OCT/Original Data/OCT/Normal/sabrenr (39).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.483426,True,False,0.460613,0.483426,0.055961
+oct_Normal_sabrenr_(40),data/raw/OCT/Original Data/OCT/Normal/sabrenr (40).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.921512,False,True,0.037281,0.921512,0.041206
+oct_Normal_sabrenr_(42),data/raw/OCT/Original Data/OCT/Normal/sabrenr (42).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.492674,True,False,0.430769,0.492674,0.076557
+oct_Normal_sabrenr_(43),data/raw/OCT/Original Data/OCT/Normal/sabrenr (43).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.582349,True,False,0.354076,0.582349,0.063575
+oct_Normal_sabrenr_(45),data/raw/OCT/Original Data/OCT/Normal/sabrenr (45).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.609569,False,False,0.364524,0.609569,0.025908
+oct_Normal_sabrenr_(49),data/raw/OCT/Original Data/OCT/Normal/sabrenr (49).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.881068,False,True,0.084265,0.881068,0.034667
+oct_Normal_sabrenr_(51),data/raw/OCT/Original Data/OCT/Normal/sabrenr (51).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.671154,False,False,0.200817,0.671154,0.128029
+oct_Normal_sabrenr_(52),data/raw/OCT/Original Data/OCT/Normal/sabrenr (52).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.941059,False,True,0.032375,0.941059,0.026566
+oct_Normal_sabrenr_(53),data/raw/OCT/Original Data/OCT/Normal/sabrenr (53).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.939401,False,True,0.026714,0.939401,0.033885
+oct_Normal_sabrenr_(54),data/raw/OCT/Original Data/OCT/Normal/sabrenr (54).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.913367,False,True,0.029289,0.913367,0.057344
+oct_G2_NORAA_(72),data/raw/OCT/Original Data/OCT/Papilledema/G2/NORAA (72).jpg,G2__noraa__paren,1,0,Papilledema,Normal,False,0.652946,False,False,0.652946,0.346439,0.000616
+oct_G2_NORAA_(73),data/raw/OCT/Original Data/OCT/Papilledema/G2/NORAA (73).jpg,G2__noraa__paren,1,0,Papilledema,Normal,False,0.615254,False,False,0.615254,0.384265,0.000481

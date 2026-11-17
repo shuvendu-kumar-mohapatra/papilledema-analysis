@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__oct_individual__efficientnet_b0__fold4__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T16:08:30.705280+00:00",
+  "completion_time": "2026-11-12T16:09:45.877214+00:00",
+  "train_duration_sec": 71.708,
+  "best_epoch": 4,
+  "best_val_macro_f1": 0.8636785786392086,
+  "test_macro_f1": 0.839078,
+  "peak_gpu_mem_mb": 822.16,
+  "ckpt_size_mb": 15.584
+}

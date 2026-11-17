@@ -1,0 +1,143 @@
+{
+  "exp_id": "cv__oct_severity__efficientnet_b0_bilstm__fold5__seed42",
+  "checkpoint_epoch": 14,
+  "best_val_macro_f1": 0.8529782484702105,
+  "metrics": {
+    "accuracy": 0.374233,
+    "balanced_accuracy": 0.609325,
+    "macro_precision": 0.492273,
+    "macro_recall": 0.609325,
+    "macro_f1": 0.359958,
+    "weighted_precision": 0.589165,
+    "weighted_recall": 0.374233,
+    "weighted_f1": 0.374665,
+    "macro_sensitivity": 0.609325,
+    "macro_specificity": 0.751963,
+    "roc_auc_ovr": 0.805818,
+    "pr_auc_ovr": 0.704806,
+    "per_class_auc": {
+      "G1": 0.996774,
+      "G2": 0.427586,
+      "G3": 0.86986,
+      "G4": 0.929051
+    },
+    "per_class_pr_auc": {
+      "G1": 0.931796,
+      "G2": 0.557867,
+      "G3": 0.701363,
+      "G4": 0.628198
+    },
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        32,
+        33,
+        0,
+        40
+      ],
+      [
+        0,
+        29,
+        7,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        13
+      ]
+    ],
+    "per_class": {
+      "G1": {
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.333333,
+        "sensitivity": 1.0,
+        "specificity": 0.793548,
+        "support": 8,
+        "tp": 8,
+        "fp": 32,
+        "fn": 0,
+        "tn": 123
+      },
+      "G2": {
+        "precision": 0.52381,
+        "recall": 0.314286,
+        "f1": 0.392857,
+        "sensitivity": 0.314286,
+        "specificity": 0.482759,
+        "support": 105,
+        "tp": 33,
+        "fp": 30,
+        "fn": 72,
+        "tn": 28
+      },
+      "G3": {
+        "precision": 1.0,
+        "recall": 0.194444,
+        "f1": 0.325581,
+        "sensitivity": 0.194444,
+        "specificity": 1.0,
+        "support": 36,
+        "tp": 7,
+        "fp": 0,
+        "fn": 29,
+        "tn": 127
+      },
+      "G4": {
+        "precision": 0.245283,
+        "recall": 0.928571,
+        "f1": 0.38806,
+        "sensitivity": 0.928571,
+        "specificity": 0.731544,
+        "support": 14,
+        "tp": 13,
+        "fp": 40,
+        "fn": 1,
+        "tn": 109
+      }
+    },
+    "num_samples": 163
+  },
+  "parameters": {
+    "total_params": 4748608,
+    "trainable_params": 4748608
+  },
+  "inference_total_sec": 0.7585,
+  "inference_latency_ms": 4.6534,
+  "throughput_samples_per_sec": 214.9,
+  "error_analysis": {
+    "total_errors": 102,
+    "error_rate": 0.625767,
+    "low_confidence_count": 2,
+    "high_confidence_error_count": 93,
+    "confused_pairs": {
+      "G2 -> G4": 40,
+      "G2 -> G1": 32,
+      "G3 -> G2": 29,
+      "G4 -> G2": 1
+    },
+    "predictions_csv": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\cross_validation\\predictions\\cv__oct_severity__efficientnet_b0_bilstm__fold5__seed42_predictions.csv",
+    "errors_csv": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\cross_validation\\predictions\\cv__oct_severity__efficientnet_b0_bilstm__fold5__seed42_errors.csv"
+  },
+  "cv_exp_id": "cv__oct_severity__efficientnet_b0_bilstm__fold5__seed42",
+  "track": "oct_severity",
+  "model": "efficientnet_b0_bilstm",
+  "category": "hybrid",
+  "fold": 5,
+  "val_fold": 1,
+  "seed": 42,
+  "best_epoch": 14,
+  "epochs_completed": 21,
+  "train_duration_sec": 96.356,
+  "peak_gpu_mem_mb": 843.72,
+  "ckpt_size_mb": 18.399,
+  "checkpoint_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints_cv\\cv__oct_severity__efficientnet_b0_bilstm__fold5__seed42\\best.pt",
+  "history_path": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\checkpoints_cv\\cv__oct_severity__efficientnet_b0_bilstm__fold5__seed42\\history.csv"
+}

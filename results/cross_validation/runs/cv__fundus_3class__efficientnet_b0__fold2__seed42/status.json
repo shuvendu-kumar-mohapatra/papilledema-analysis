@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__fundus_3class__efficientnet_b0__fold2__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T14:03:19.802790+00:00",
+  "completion_time": "2026-11-12T14:05:05.880649+00:00",
+  "train_duration_sec": 102.864,
+  "best_epoch": 10,
+  "best_val_macro_f1": 0.9755143846052937,
+  "test_macro_f1": 0.958434,
+  "peak_gpu_mem_mb": 831.35,
+  "ckpt_size_mb": 15.586
+}

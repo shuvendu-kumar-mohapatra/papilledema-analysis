@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__oct_sequence__bilstm__fold5__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T17:50:47.896969+00:00",
+  "completion_time": "2026-11-12T17:51:56.341674+00:00",
+  "train_duration_sec": 67.252,
+  "best_epoch": 11,
+  "best_val_macro_f1": 0.5552178318135764,
+  "test_macro_f1": 0.709864,
+  "peak_gpu_mem_mb": 234.97,
+  "ckpt_size_mb": 3.265
+}

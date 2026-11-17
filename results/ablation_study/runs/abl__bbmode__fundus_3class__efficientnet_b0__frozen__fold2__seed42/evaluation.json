@@ -1,0 +1,17 @@
+{
+  "ablation_group": "cnn_backbone_trainability",
+  "abl_id": "abl__bbmode__fundus_3class__efficientnet_b0__frozen__fold2__seed42",
+  "track": "fundus_3class",
+  "model": "efficientnet_b0",
+  "backbone_mode": "frozen",
+  "fold": 2,
+  "total_params": 4011391,
+  "trainable_params": 4011391,
+  "train_duration_sec": 115.906,
+  "best_epoch": 10,
+  "accuracy": 0.96337,
+  "balanced_accuracy": 0.971509,
+  "macro_f1": 0.958434,
+  "weighted_f1": 0.963969,
+  "mcc": 0.939479
+}

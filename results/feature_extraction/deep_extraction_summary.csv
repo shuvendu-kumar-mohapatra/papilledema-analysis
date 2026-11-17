@@ -1,0 +1,10 @@
+track,modality,backbone,embedding_dim,n_samples,checkpoint_loaded,checkpoint_path,l2_norm_mean,l2_norm_std
+fundus_3class,fundus,resnet50,2048,1367,True,C:\Users\Shuvendu\Desktop\Papilledema_analysis\checkpoints\fundus_3class__resnet50__seed42\best.pt,23.974180221557617,9.85658073425293
+fundus_3class,fundus,densenet121,1024,1367,True,C:\Users\Shuvendu\Desktop\Papilledema_analysis\checkpoints\fundus_3class__densenet121__seed42\best.pt,28.987577438354492,6.537064552307129
+fundus_3class,fundus,efficientnet_b0,1280,1367,True,C:\Users\Shuvendu\Desktop\Papilledema_analysis\checkpoints\fundus_3class__efficientnet_b0__seed42\best.pt,19.026281356811523,5.165177345275879
+oct_individual,oct,resnet50,2048,1140,True,C:\Users\Shuvendu\Desktop\Papilledema_analysis\checkpoints\oct_individual__resnet50__seed42\best.pt,22.544172286987305,6.64455509185791
+oct_individual,oct,densenet121,1024,1140,True,C:\Users\Shuvendu\Desktop\Papilledema_analysis\checkpoints\oct_individual__densenet121__seed42\best.pt,33.21058654785156,5.915247440338135
+oct_individual,oct,efficientnet_b0,1280,1140,True,C:\Users\Shuvendu\Desktop\Papilledema_analysis\checkpoints\oct_individual__efficientnet_b0__seed42\best.pt,15.757291793823242,4.868091583251953
+oct_severity,oct,resnet50,2048,895,True,C:\Users\Shuvendu\Desktop\Papilledema_analysis\checkpoints\oct_severity__resnet50__seed42\best.pt,24.24858283996582,8.021712303161621
+oct_severity,oct,densenet121,1024,895,True,C:\Users\Shuvendu\Desktop\Papilledema_analysis\checkpoints\oct_severity__densenet121__seed42\best.pt,26.893199920654297,6.37868070602417
+oct_severity,oct,efficientnet_b0,1280,895,True,C:\Users\Shuvendu\Desktop\Papilledema_analysis\checkpoints\oct_severity__efficientnet_b0__seed42\best.pt,17.008716583251953,5.4141058921813965

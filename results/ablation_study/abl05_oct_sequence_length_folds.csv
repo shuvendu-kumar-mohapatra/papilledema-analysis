@@ -1,0 +1,16 @@
+ablation_group,track,model,seq_len,fold,n_windows,train_duration_sec,best_epoch,accuracy,balanced_accuracy,macro_f1,weighted_f1,mcc,abl_id,total_params,trainable_params
+oct_sequence_length,oct_sequence,resnet50_bilstm,8,1,31,139.666,16,1.0,1.0,1.0,1.0,1.0,,,
+oct_sequence_length,oct_sequence,resnet50_bilstm,8,2,31,68.481,4,0.935484,0.972222,0.900851,0.938178,0.855668,,,
+oct_sequence_length,oct_sequence,resnet50_bilstm,8,3,27,83.686,6,0.962963,0.888889,0.925581,0.95969,0.898994,,,
+oct_sequence_length,oct_sequence,resnet50_bilstm,8,4,26,103.191,9,0.923077,0.966667,0.899123,0.930668,0.837892,,,
+oct_sequence_length,oct_sequence,resnet50_bilstm,8,5,31,73.696,5,0.774194,0.906667,0.766249,0.816608,0.622314,,,
+oct_sequence_length,oct_sequence,resnet50_bilstm,4,1,59,70.481,3,0.932203,0.809524,0.852778,0.920056,0.811279,abl__seqlen4__resnet50_bilstm__fold1__seed42,24439747.0,24439747.0
+oct_sequence_length,oct_sequence,resnet50_bilstm,4,2,55,93.094,6,1.0,1.0,1.0,1.0,1.0,abl__seqlen4__resnet50_bilstm__fold2__seed42,24439747.0,24439747.0
+oct_sequence_length,oct_sequence,resnet50_bilstm,4,3,52,94.498,6,0.884615,0.807692,0.807692,0.884615,0.715847,abl__seqlen4__resnet50_bilstm__fold3__seed42,24439747.0,24439747.0
+oct_sequence_length,oct_sequence,resnet50_bilstm,4,4,58,76.397,4,0.827586,0.927536,0.778397,0.847122,0.683056,abl__seqlen4__resnet50_bilstm__fold4__seed42,24439747.0,24439747.0
+oct_sequence_length,oct_sequence,resnet50_bilstm,4,5,61,89.98,6,0.983607,0.993333,0.970992,0.984154,0.950732,abl__seqlen4__resnet50_bilstm__fold5__seed42,24439747.0,24439747.0
+oct_sequence_length,oct_sequence,resnet50_bilstm,12,1,22,95.598,9,1.0,1.0,1.0,1.0,1.0,abl__seqlen12__resnet50_bilstm__fold1__seed42,24439747.0,24439747.0
+oct_sequence_length,oct_sequence,resnet50_bilstm,12,2,21,86.979,7,0.952381,0.979167,0.941628,0.955014,0.893206,abl__seqlen12__resnet50_bilstm__fold2__seed42,24439747.0,24439747.0
+oct_sequence_length,oct_sequence,resnet50_bilstm,12,3,18,83.084,6,0.944444,0.833333,0.877395,0.936143,0.847399,abl__seqlen12__resnet50_bilstm__fold3__seed42,24439747.0,24439747.0
+oct_sequence_length,oct_sequence,resnet50_bilstm,12,4,17,107.891,10,0.882353,0.807692,0.807692,0.882353,0.696429,abl__seqlen12__resnet50_bilstm__fold4__seed42,24439747.0,24439747.0
+oct_sequence_length,oct_sequence,resnet50_bilstm,12,5,21,84.067,7,0.857143,0.941176,0.824885,0.880843,0.714435,abl__seqlen12__resnet50_bilstm__fold5__seed42,24439747.0,24439747.0

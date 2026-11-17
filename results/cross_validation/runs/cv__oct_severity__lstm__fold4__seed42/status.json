@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__oct_severity__lstm__fold4__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T18:17:25.905235+00:00",
+  "completion_time": "2026-11-12T18:18:53.505616+00:00",
+  "train_duration_sec": 86.61,
+  "best_epoch": 11,
+  "best_val_macro_f1": 0.35569638694638694,
+  "test_macro_f1": 0.106169,
+  "peak_gpu_mem_mb": 105.19,
+  "ckpt_size_mb": 1.755
+}

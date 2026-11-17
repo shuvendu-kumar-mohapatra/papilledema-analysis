@@ -1,0 +1,18 @@
+{
+  "completed_cv_runs": 175,
+  "tracks": [
+    "fundus_3class",
+    "oct_individual",
+    "oct_sequence",
+    "oct_severity"
+  ],
+  "models_per_track": {
+    "fundus_3class": 10,
+    "oct_individual": 10,
+    "oct_sequence": 5,
+    "oct_severity": 10
+  },
+  "figures_generated_count": 70,
+  "output_dir": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\evaluation",
+  "publication_figures_dir": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\publication_figures"
+}

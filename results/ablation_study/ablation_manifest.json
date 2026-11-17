@@ -1,0 +1,25 @@
+{
+  "ablations_completed": [
+    "cnn_backbone",
+    "lstm_vs_bilstm",
+    "hybrid_vs_cnn",
+    "backbone_trainability",
+    "oct_sequence_length"
+  ],
+  "new_runs_executed": 30,
+  "figures_generated": [
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl01_cnn_backbone_comparison.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl01_cnn_backbone_comparison.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl02_rnn_lstm_vs_bilstm.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl02_rnn_lstm_vs_bilstm.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl03_hybrid_cnn_rnn_comparison.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl03_hybrid_cnn_rnn_comparison.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl04_backbone_trainability_comparison.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl04_backbone_trainability_comparison.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl05_oct_sequence_length_comparison.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl05_oct_sequence_length_comparison.pdf",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl06_ablation_efficiency_tradeoff.png",
+    "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study\\figures\\abl06_ablation_efficiency_tradeoff.pdf"
+  ],
+  "output_dir": "C:\\Users\\Shuvendu\\Desktop\\Papilledema_analysis\\results\\ablation_study"
+}

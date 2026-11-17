@@ -1,0 +1,12 @@
+{
+  "cv_exp_id": "cv__oct_severity__resnet50__fold1__seed42",
+  "status": "completed",
+  "start_time": "2026-11-12T17:51:56.472214+00:00",
+  "completion_time": "2026-11-12T17:54:04.217028+00:00",
+  "train_duration_sec": 118.094,
+  "best_epoch": 18,
+  "best_val_macro_f1": 0.8723943041691133,
+  "test_macro_f1": 0.761319,
+  "peak_gpu_mem_mb": 1073.92,
+  "ckpt_size_mb": 89.988
+}
