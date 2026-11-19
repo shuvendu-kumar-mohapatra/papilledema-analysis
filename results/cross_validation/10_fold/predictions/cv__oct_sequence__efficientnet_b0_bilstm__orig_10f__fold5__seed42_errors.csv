@@ -1,0 +1,6 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+G2__naglaaa__under1_paren__w048,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_1 (49).jpg,G2__naglaaa__under1_paren,1,2,Papilledema,Pseudopapilledema,False,0.715382,False,False,0.034962,0.249656,0.715382
+G2__naglaaa__under6__w056,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000056.jpg,G2__naglaaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.661436,False,False,0.003364,0.3352,0.661436
+G2__naglaaa__under6__w064,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000064.jpg,G2__naglaaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.875714,False,True,0.003729,0.120558,0.875714
+Normal__sabrenr__under6__w000,data/raw/OCT/Original Data/OCT/Normal/sabrenr_000000.jpg,Normal__sabrenr__under6,0,1,Normal,Papilledema,False,0.762703,False,False,0.168133,0.762703,0.069164
+Normal__sabrenr__under6__w008,data/raw/OCT/Original Data/OCT/Normal/sabrenr_000008.jpg,Normal__sabrenr__under6,0,1,Normal,Papilledema,False,0.849013,False,True,0.136549,0.849013,0.014438

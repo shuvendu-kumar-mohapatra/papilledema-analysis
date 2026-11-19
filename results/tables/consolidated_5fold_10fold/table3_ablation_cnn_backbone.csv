@@ -1,0 +1,10 @@
+Experimental Track,Model,5-Fold Macro-F1,10-Fold Macro-F1
+Fundus,resnet50,0.9538,0.9547
+Fundus,densenet121,0.9613,0.9657
+Fundus,efficientnet_b0,0.9592,0.9758
+Individual OCT,resnet50,0.8895,0.8647
+Individual OCT,densenet121,0.9621,0.9616
+Individual OCT,efficientnet_b0,0.905,0.9157
+OCT Severity,resnet50,0.6669,0.8257
+OCT Severity,densenet121,0.7601,0.8808
+OCT Severity,efficientnet_b0,0.5998,0.8257

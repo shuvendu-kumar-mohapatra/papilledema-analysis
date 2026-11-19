@@ -1,0 +1,3 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_G1,prob_G2,prob_G3,prob_G4
+oct_G2_NORAA051,data/raw/OCT/Original Data/OCT/Papilledema/G2/NORAA051.jpg,G2__noraa__cat3,1,2,G2,G3,False,0.636751,False,False,0.006652,0.348911,0.636751,0.007686
+oct_G2_NORAA053,data/raw/OCT/Original Data/OCT/Papilledema/G2/NORAA053.jpg,G2__noraa__cat3,1,2,G2,G3,False,0.746432,False,False,0.00615,0.241386,0.746432,0.006031

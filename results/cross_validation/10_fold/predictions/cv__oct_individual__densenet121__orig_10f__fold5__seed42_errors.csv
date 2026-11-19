@@ -1,0 +1,13 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+oct_Normal_sabrenr_(65),data/raw/OCT/Original Data/OCT/Normal/sabrenr (65).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.507589,True,False,0.385741,0.507589,0.10667
+oct_G2_naglaaa_000058,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000058.jpg,G2__naglaaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.605935,False,False,0.011907,0.382158,0.605935
+oct_G2_naglaaa_000060,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000060.jpg,G2__naglaaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.564815,True,False,0.036037,0.399148,0.564815
+oct_G2_naglaaa_000063,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000063.jpg,G2__naglaaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.809854,False,True,0.019195,0.17095,0.809854
+oct_G2_naglaaa_000064,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000064.jpg,G2__naglaaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.518548,True,False,0.157032,0.32442,0.518548
+oct_G2_naglaaa_000065,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000065.jpg,G2__naglaaa__under6,1,0,Papilledema,Normal,False,0.514291,True,False,0.514291,0.190448,0.29526
+oct_G2_naglaaa_000066,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000066.jpg,G2__naglaaa__under6,1,0,Papilledema,Normal,False,0.385812,True,False,0.385812,0.273009,0.341179
+oct_G2_naglaaa_000067,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000067.jpg,G2__naglaaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.666203,False,False,0.239171,0.094626,0.666203
+oct_G2_naglaaa_000068,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000068.jpg,G2__naglaaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.660699,False,False,0.279766,0.059535,0.660699
+oct_G2_naglaaa_000069,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000069.jpg,G2__naglaaa__under6,1,2,Papilledema,Pseudopapilledema,False,0.592445,True,False,0.312712,0.094843,0.592445
+oct_G2_naglaaa_000070,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000070.jpg,G2__naglaaa__under6,1,0,Papilledema,Normal,False,0.551828,True,False,0.551828,0.082544,0.365628
+oct_G2_naglaaa_000071,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000071.jpg,G2__naglaaa__under6,1,0,Papilledema,Normal,False,0.426402,True,False,0.426402,0.247212,0.326386

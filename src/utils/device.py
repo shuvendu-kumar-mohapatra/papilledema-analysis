@@ -39,6 +39,8 @@ def get_device(prefer_gpu: bool = True) -> torch.device:
     if prefer_gpu and torch.cuda.is_available():
         ok, _ = verify_gpu_compatibility()
         if ok:
+            torch.set_float32_matmul_precision("high")
+            torch.backends.cudnn.benchmark = True
             return torch.device("cuda")
     return torch.device("cpu")
 

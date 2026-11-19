@@ -1,0 +1,8 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_G1,prob_G2,prob_G3,prob_G4
+oct_G2_hendm_000001,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000001.jpg,G2__hendm__under6,1,2,G2,G3,False,0.322008,True,False,0.235615,0.301908,0.322008,0.140469
+oct_G2_hendm_000002,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000002.jpg,G2__hendm__under6,1,3,G2,G4,False,0.845999,False,True,0.118475,0.018691,0.016836,0.845999
+oct_G2_hendm_000006,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000006.jpg,G2__hendm__under6,1,0,G2,G1,False,0.553134,True,False,0.553134,0.236395,0.032639,0.177831
+oct_G2_hendm_000039,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000039.jpg,G2__hendm__under6,1,2,G2,G3,False,0.793363,False,False,0.012874,0.190104,0.793363,0.00366
+oct_G2_hendm_000041,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000041.jpg,G2__hendm__under6,1,2,G2,G3,False,0.584828,True,False,0.004527,0.401946,0.584828,0.0087
+oct_G2_hendm_000057,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000057.jpg,G2__hendm__under6,1,2,G2,G3,False,0.809765,False,True,9.7e-05,0.190095,0.809765,4.3e-05
+oct_G3_norah000,data/raw/OCT/Original Data/OCT/Papilledema/G3/norah000.jpg,G3__norah__cat3,2,1,G3,G2,False,0.999296,False,True,1.5e-05,0.999296,0.000629,6e-05

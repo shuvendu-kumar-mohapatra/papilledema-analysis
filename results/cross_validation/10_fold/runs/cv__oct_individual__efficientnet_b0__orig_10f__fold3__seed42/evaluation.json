@@ -1,0 +1,106 @@
+{
+  "exp_id": "cv__oct_individual__efficientnet_b0__orig_10f__fold3__seed42",
+  "track": "oct_individual",
+  "model": "efficientnet_b0",
+  "n_folds": 10,
+  "fold": 3,
+  "condition": "original",
+  "train_samples": 805,
+  "val_samples": 164,
+  "test_samples": 171,
+  "train_duration_sec": 2045.426,
+  "best_epoch": 3,
+  "inference_latency_ms": 641.647,
+  "total_params": 4010815,
+  "peak_gpu_mem_mb": 0.0,
+  "accuracy": 0.982456,
+  "balanced_accuracy": 0.916667,
+  "macro_precision": 0.993289,
+  "macro_recall": 0.916667,
+  "macro_f1": 0.948991,
+  "weighted_precision": 0.982809,
+  "weighted_recall": 0.982456,
+  "weighted_f1": 0.981292,
+  "macro_sensitivity": 0.916667,
+  "macro_specificity": 0.96,
+  "roc_auc_ovr": 0.998313,
+  "pr_auc_ovr": 0.99063,
+  "per_class_auc": {
+    "Normal": 1.0,
+    "Papilledema": 0.998082,
+    "Pseudopapilledema": 0.996855
+  },
+  "per_class_pr_auc": {
+    "Normal": 1.0,
+    "Papilledema": 0.999667,
+    "Pseudopapilledema": 0.972222
+  },
+  "confusion_matrix": [
+    [
+      13,
+      0,
+      0
+    ],
+    [
+      0,
+      146,
+      0
+    ],
+    [
+      0,
+      3,
+      9
+    ]
+  ],
+  "per_class": {
+    "Normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "support": 13,
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "tn": 158
+    },
+    "Papilledema": {
+      "precision": 0.979866,
+      "recall": 1.0,
+      "f1": 0.989831,
+      "sensitivity": 1.0,
+      "specificity": 0.88,
+      "support": 146,
+      "tp": 146,
+      "fp": 3,
+      "fn": 0,
+      "tn": 22
+    },
+    "Pseudopapilledema": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.857143,
+      "sensitivity": 0.75,
+      "specificity": 1.0,
+      "support": 12,
+      "tp": 9,
+      "fp": 0,
+      "fn": 3,
+      "tn": 159
+    }
+  },
+  "num_samples": 171,
+  "error_rate": 0.017544,
+  "micro_precision": 0.982456,
+  "micro_recall": 0.982456,
+  "micro_f1": 0.982456,
+  "mcc": 0.931528,
+  "cohen_kappa": 0.928849,
+  "log_loss": 0.1283,
+  "brier_score": 0.041923,
+  "ece": 0.08536,
+  "qwk": null,
+  "mae": null,
+  "mse": null
+}

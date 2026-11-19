@@ -80,7 +80,7 @@ def _run_controlled_image_mode_fold(
     }
 
     logger = get_logger(f"abl.{abl_id}", log_file=out_root / "logs" / f"{abl_id}.log")
-    model = build_model(model_name, num_classes=len(class_names), in_channels=in_channels, model_cfg=m_cfg, image_size=img_size)
+    model = build_model(model_name, num_classes=len(class_names), in_channels=in_channels, image_size=img_size, **m_cfg)
     ckpt_dir = ckpt_root / abl_id
     tr_res = train_model(
         model=model,
@@ -99,7 +99,7 @@ def _run_controlled_image_mode_fold(
         resume=not overwrite,
         logger=logger,
     )
-    eval_model = build_model(model_name, num_classes=len(class_names), in_channels=in_channels, model_cfg=m_cfg, image_size=img_size)
+    eval_model = build_model(model_name, num_classes=len(class_names), in_channels=in_channels, image_size=img_size, **m_cfg)
     ev_res = evaluate_model_on_test(
         model=eval_model,
         test_loader=loaders["test"],

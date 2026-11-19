@@ -1,0 +1,36 @@
+Experimental Track,model,5-Fold Macro-F1,10-Fold Macro-F1,Difference
+Fundus,efficientnet_b0,0.9592,0.9758,0.0166
+Fundus,resnet50_bilstm,0.9624,0.9673,0.0049
+Fundus,densenet121,0.9613,0.9657,0.0044
+Fundus,resnet50_lstm,0.9535,0.9629,0.0094
+Fundus,efficientnet_b0_bilstm,0.9611,0.9559,-0.0052
+Fundus,resnet50,0.9538,0.9547,0.0009
+Fundus,autoencoder_classifier,0.8643,0.8644,0.0001
+Fundus,mlp,0.8023,0.8081,0.0058
+Fundus,lstm,0.7483,0.7472,-0.0011
+Fundus,bilstm,0.75,0.7293,-0.0207
+Individual OCT,densenet121,0.9621,0.9616,-0.0005
+Individual OCT,resnet50_lstm,0.8712,0.9237,0.0525
+Individual OCT,efficientnet_b0,0.905,0.9157,0.0107
+Individual OCT,efficientnet_b0_bilstm,0.9121,0.9054,-0.0067
+Individual OCT,resnet50_bilstm,0.9193,0.9022,-0.0171
+Individual OCT,resnet50,0.8895,0.8647,-0.0248
+Individual OCT,autoencoder_classifier,0.7135,0.792,0.0785
+Individual OCT,mlp,0.7293,0.6314,-0.0979
+Individual OCT,lstm,0.4963,0.4258,-0.0705
+Individual OCT,bilstm,0.5245,0.3953,-0.1292
+OCT Sequence,resnet50_lstm,0.8945,0.8732,-0.0213
+OCT Sequence,resnet50_bilstm,0.8984,0.8337,-0.0647
+OCT Sequence,efficientnet_b0_bilstm,0.8859,0.8216,-0.0643
+OCT Sequence,lstm,0.4047,0.5344,0.1297
+OCT Sequence,bilstm,0.4175,0.47,0.0525
+OCT Severity,densenet121,0.7601,0.8808,0.1207
+OCT Severity,resnet50_bilstm,0.7497,0.8655,0.1158
+OCT Severity,efficientnet_b0_bilstm,0.6291,0.8352,0.2061
+OCT Severity,resnet50_lstm,0.7139,0.8283,0.1144
+OCT Severity,resnet50,0.6669,0.8257,0.1588
+OCT Severity,efficientnet_b0,0.5998,0.8257,0.2259
+OCT Severity,autoencoder_classifier,0.5029,0.5271,0.0242
+OCT Severity,mlp,0.4164,0.4921,0.0757
+OCT Severity,bilstm,0.2222,0.3223,0.1001
+OCT Severity,lstm,0.1588,0.3001,0.1413

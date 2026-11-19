@@ -1,0 +1,13 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+G2__hendm__under6__w000,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000000.jpg,G2__hendm__under6,1,1,Papilledema,Papilledema,True,0.497231,True,False,0.406423,0.497231,0.096346
+G2__hendm__under6__w008,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000008.jpg,G2__hendm__under6,1,1,Papilledema,Papilledema,True,0.503544,True,False,0.399505,0.503544,0.096951
+G2__hendm__under6__w016,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000016.jpg,G2__hendm__under6,1,1,Papilledema,Papilledema,True,0.512337,True,False,0.39196,0.512337,0.095703
+G2__hendm__under6__w024,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000024.jpg,G2__hendm__under6,1,1,Papilledema,Papilledema,True,0.497746,True,False,0.403087,0.497746,0.099167
+G2__hendm__under6__w032,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000032.jpg,G2__hendm__under6,1,1,Papilledema,Papilledema,True,0.498332,True,False,0.407622,0.498332,0.094046
+G2__hendm__under6__w040,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000040.jpg,G2__hendm__under6,1,1,Papilledema,Papilledema,True,0.474157,True,False,0.427947,0.474157,0.097896
+G2__hendm__under6__w048,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000048.jpg,G2__hendm__under6,1,0,Papilledema,Normal,False,0.447609,True,False,0.447609,0.402608,0.149784
+G2__hendm__under6__w056,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000056.jpg,G2__hendm__under6,1,1,Papilledema,Papilledema,True,0.480509,True,False,0.345844,0.480509,0.173647
+G2__hendm__under6__w064,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000064.jpg,G2__hendm__under6,1,1,Papilledema,Papilledema,True,0.512669,True,False,0.387361,0.512669,0.09997
+Normal__sabrenr__under6__w016,data/raw/OCT/Original Data/OCT/Normal/sabrenr_000016.jpg,Normal__sabrenr__under6,0,0,Normal,Normal,True,0.463021,True,False,0.463021,0.287777,0.249202
+Normal__sabrenr__under6__w024,data/raw/OCT/Original Data/OCT/Normal/sabrenr_000024.jpg,Normal__sabrenr__under6,0,0,Normal,Normal,True,0.45237,True,False,0.45237,0.296563,0.251068
+Pseudopapilledema__heshama__under6__w024,data/raw/OCT/Original Data/OCT/Pseudo papilledema/heshama_000024.jpg,Pseudopapilledema__heshama__under6,2,0,Pseudopapilledema,Normal,False,0.398222,True,False,0.398222,0.307609,0.294169

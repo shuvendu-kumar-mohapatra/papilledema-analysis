@@ -1,0 +1,2 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+oct_Normal_sabrenr_(21),data/raw/OCT/Original Data/OCT/Normal/sabrenr (21).jpg,Normal__sabrenr__paren,0,1,Normal,Papilledema,False,0.732159,False,False,0.267773,0.732159,6.9e-05

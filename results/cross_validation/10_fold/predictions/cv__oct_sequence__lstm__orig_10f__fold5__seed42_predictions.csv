@@ -1,0 +1,21 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+G2__naglaaa__under1_paren__w000,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_1 (1).jpg,G2__naglaaa__under1_paren,1,2,Papilledema,Pseudopapilledema,False,0.501169,True,False,0.099654,0.399177,0.501169
+G2__naglaaa__under1_paren__w008,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_1 (9).jpg,G2__naglaaa__under1_paren,1,2,Papilledema,Pseudopapilledema,False,0.502054,True,False,0.108471,0.389475,0.502054
+G2__naglaaa__under1_paren__w016,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_1 (17).jpg,G2__naglaaa__under1_paren,1,2,Papilledema,Pseudopapilledema,False,0.474629,True,False,0.137801,0.38757,0.474629
+G2__naglaaa__under1_paren__w024,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_1 (25).jpg,G2__naglaaa__under1_paren,1,2,Papilledema,Pseudopapilledema,False,0.445448,True,False,0.11084,0.443712,0.445448
+G2__naglaaa__under1_paren__w032,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_1 (33).jpg,G2__naglaaa__under1_paren,1,2,Papilledema,Pseudopapilledema,False,0.476463,True,False,0.114002,0.409535,0.476463
+G2__naglaaa__under1_paren__w040,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_1 (41).jpg,G2__naglaaa__under1_paren,1,2,Papilledema,Pseudopapilledema,False,0.501725,True,False,0.10099,0.397285,0.501725
+G2__naglaaa__under1_paren__w048,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_1 (49).jpg,G2__naglaaa__under1_paren,1,2,Papilledema,Pseudopapilledema,False,0.46169,True,False,0.101618,0.436692,0.46169
+G2__naglaaa__under6__w000,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000000.jpg,G2__naglaaa__under6,1,1,Papilledema,Papilledema,True,0.779792,False,False,0.135508,0.779792,0.0847
+G2__naglaaa__under6__w008,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000008.jpg,G2__naglaaa__under6,1,1,Papilledema,Papilledema,True,0.777752,False,False,0.068275,0.777752,0.153973
+G2__naglaaa__under6__w016,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000016.jpg,G2__naglaaa__under6,1,1,Papilledema,Papilledema,True,0.798972,False,False,0.092105,0.798972,0.108924
+G2__naglaaa__under6__w024,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000024.jpg,G2__naglaaa__under6,1,1,Papilledema,Papilledema,True,0.834755,False,False,0.047859,0.834755,0.117386
+G2__naglaaa__under6__w032,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000032.jpg,G2__naglaaa__under6,1,1,Papilledema,Papilledema,True,0.826758,False,False,0.050655,0.826758,0.122587
+G2__naglaaa__under6__w040,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000040.jpg,G2__naglaaa__under6,1,1,Papilledema,Papilledema,True,0.80284,False,False,0.07443,0.80284,0.122729
+G2__naglaaa__under6__w048,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000048.jpg,G2__naglaaa__under6,1,1,Papilledema,Papilledema,True,0.790196,False,False,0.097812,0.790196,0.111992
+G2__naglaaa__under6__w056,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000056.jpg,G2__naglaaa__under6,1,1,Papilledema,Papilledema,True,0.749104,False,False,0.125433,0.749104,0.125463
+G2__naglaaa__under6__w064,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000064.jpg,G2__naglaaa__under6,1,1,Papilledema,Papilledema,True,0.805061,False,False,0.086886,0.805061,0.108053
+Normal__sabrenr__under6__w000,data/raw/OCT/Original Data/OCT/Normal/sabrenr_000000.jpg,Normal__sabrenr__under6,0,1,Normal,Papilledema,False,0.482088,True,False,0.26793,0.482088,0.249982
+Normal__sabrenr__under6__w008,data/raw/OCT/Original Data/OCT/Normal/sabrenr_000008.jpg,Normal__sabrenr__under6,0,1,Normal,Papilledema,False,0.422213,True,False,0.191098,0.422213,0.386689
+Pseudopapilledema__heshama__under6__w008,data/raw/OCT/Original Data/OCT/Pseudo papilledema/heshama_000008.jpg,Pseudopapilledema__heshama__under6,2,1,Pseudopapilledema,Papilledema,False,0.678763,False,False,0.149032,0.678763,0.172206
+Pseudopapilledema__heshama__under6__w016,data/raw/OCT/Original Data/OCT/Pseudo papilledema/heshama_000016.jpg,Pseudopapilledema__heshama__under6,2,2,Pseudopapilledema,Pseudopapilledema,True,0.561428,True,False,0.147165,0.291407,0.561428

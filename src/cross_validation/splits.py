@@ -221,15 +221,23 @@ def validate_cv_dataframe(
 def build_and_validate_cv_splits(
     cfg: dict[str, Any] | None = None,
     cv_cfg: dict[str, Any] | None = None,
+    n_folds: int | None = None,
+    out_dir: Path | str | None = None,
+    skip_infeasible: bool = True,
 ) -> dict[str, Any]:
-    """Generate, validate, and export 5-fold CV assignments for all 4 tracks before training."""
+    """Generate, validate, and export K-fold CV assignments for all 4 tracks before training."""
     cfg = cfg or load_all_configs()
     cv_raw = cv_cfg or load_config("configs/cross_validation.yaml")
     cv_p = cv_raw.get("cross_validation", cv_raw)
 
-    n_folds = int(cv_p["n_folds"])
-    seed = int(cv_p["seed"])
-    out_splits = resolve_path(cv_p["paths"]["splits_dir"])
+    effective_n_folds = int(n_folds or cv_p.get("n_folds", 5))
+    seed = int(cv_p.get("seed", 42))
+    
+    if out_dir is not None:
+        out_splits = resolve_path(out_dir)
+    else:
+        base_splits = resolve_path(cv_p["paths"]["splits_dir"])
+        out_splits = base_splits if effective_n_folds == 5 else base_splits.parent / f"{effective_n_folds}_fold" / "splits"
     out_splits.mkdir(parents=True, exist_ok=True)
 
     splits_dir = resolve_path(cfg["paths"]["splits_dir"])
@@ -237,39 +245,63 @@ def build_and_validate_cv_splits(
     oct3_raw = pd.read_csv(splits_dir / "oct_3class_splits.csv")
     octsev_raw = pd.read_csv(splits_dir / "oct_severity_splits.csv")
 
-    f_cv = generate_fundus_cv_splits(fundus_raw, n_folds=n_folds, seed=seed)
-    o3_cv = generate_oct_individual_cv_splits(oct3_raw, n_folds=n_folds)
-    oseq_cv = generate_oct_sequence_cv_splits(
-        oct3_raw,
-        seq_len=int(cfg["oct"].get("sequence_length", 8)),
-        stride=int(cfg["oct"].get("sequence_stride", 8)),
-        min_seq_len=2,
-        n_folds=n_folds,
-    )
-    osev_cv = generate_oct_severity_cv_splits(octsev_raw, n_folds=n_folds)
+    f_cv = generate_fundus_cv_splits(fundus_raw, n_folds=effective_n_folds, seed=seed)
+    o3_cv = generate_oct_individual_cv_splits(oct3_raw, n_folds=effective_n_folds)
+    
+    # Track-specific generation with graceful handling for small-cohort sequence constraints
+    oseq_cv: pd.DataFrame | None = None
+    try:
+        oseq_cv = generate_oct_sequence_cv_splits(
+            oct3_raw,
+            seq_len=int(cfg["oct"].get("sequence_length", 8)),
+            stride=int(cfg["oct"].get("sequence_stride", 8)),
+            min_seq_len=2,
+            n_folds=effective_n_folds,
+        )
+    except Exception as exc:
+        if not skip_infeasible:
+            raise
+
+    osev_cv = generate_oct_severity_cv_splits(octsev_raw, n_folds=effective_n_folds)
 
     f_cv.to_csv(out_splits / "fundus_3class_cv_folds.csv", index=False)
     o3_cv.to_csv(out_splits / "oct_individual_cv_folds.csv", index=False)
-    oseq_cv.to_csv(out_splits / "oct_sequence_cv_folds.csv", index=False)
+    if oseq_cv is not None:
+        oseq_cv.to_csv(out_splits / "oct_sequence_cv_folds.csv", index=False)
     osev_cv.to_csv(out_splits / "oct_severity_cv_folds.csv", index=False)
 
     diags: dict[str, Any] = {}
     all_fold_rows: list[dict[str, Any]] = []
     all_inner_rows: list[dict[str, Any]] = []
 
-    for track_name, df_trk, cls_order, grp_col in (
+    track_candidates = [
         ("fundus_3class", f_cv, FUNDUS_CLASSES, "cluster_id"),
         ("oct_individual", o3_cv, OCT_3CLASSES, "inferred_subject_prefix"),
-        ("oct_sequence", oseq_cv, OCT_3CLASSES, "inferred_subject_prefix"),
         ("oct_severity", osev_cv, OCT_SEVERITY_CLASSES, "inferred_subject_prefix"),
-    ):
-        d, frows, irows = validate_cv_dataframe(df_trk, track_name, cls_order, group_col=grp_col, n_folds=n_folds)
-        diags[track_name] = d
-        all_fold_rows.extend(frows)
-        all_inner_rows.extend(irows)
+    ]
+    if oseq_cv is not None:
+        track_candidates.insert(2, ("oct_sequence", oseq_cv, OCT_3CLASSES, "inferred_subject_prefix"))
+
+    for track_name, df_trk, cls_order, grp_col in track_candidates:
+        try:
+            d, frows, irows = validate_cv_dataframe(df_trk, track_name, cls_order, group_col=grp_col, n_folds=effective_n_folds)
+            diags[track_name] = d
+            all_fold_rows.extend(frows)
+            all_inner_rows.extend(irows)
+        except Exception as exc:
+            if skip_infeasible:
+                diags[track_name] = {
+                    "track": track_name,
+                    "n_samples": int(len(df_trk)),
+                    "n_folds": effective_n_folds,
+                    "validation_passed": False,
+                    "infeasible_reason": str(exc).split("\n")[0],
+                }
+            else:
+                raise
 
     pd.DataFrame(all_fold_rows).to_csv(out_splits / "cv_fold_distributions.csv", index=False)
     pd.DataFrame(all_inner_rows).to_csv(out_splits / "cv_inner_split_summary.csv", index=False)
     (out_splits / "cv_leakage_diagnostics.json").write_text(json.dumps(diags, indent=2), encoding="utf-8")
-    return {"diagnostics": diags, "splits_dir": str(out_splits)}
+    return {"diagnostics": diags, "splits_dir": str(out_splits), "n_folds": effective_n_folds}
 

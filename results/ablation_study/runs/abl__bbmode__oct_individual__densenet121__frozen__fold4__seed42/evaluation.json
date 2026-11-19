@@ -6,12 +6,12 @@
   "backbone_mode": "frozen",
   "fold": 4,
   "total_params": 6950659,
-  "trainable_params": 6950659,
-  "train_duration_sec": 139.689,
+  "trainable_params": 3075,
+  "train_duration_sec": 98.46,
   "best_epoch": 12,
-  "accuracy": 0.95614,
-  "balanced_accuracy": 0.981481,
-  "macro_f1": 0.936713,
-  "weighted_f1": 0.959051,
-  "mcc": 0.892602
+  "accuracy": 0.609649,
+  "balanced_accuracy": 0.542593,
+  "macro_f1": 0.382043,
+  "weighted_f1": 0.644669,
+  "mcc": 0.35152
 }

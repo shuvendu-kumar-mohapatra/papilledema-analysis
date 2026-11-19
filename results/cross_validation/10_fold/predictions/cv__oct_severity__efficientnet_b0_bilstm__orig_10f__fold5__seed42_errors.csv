@@ -1,0 +1,12 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_G1,prob_G2,prob_G3,prob_G4
+oct_G2_naglaaa_000056,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000056.jpg,G2__naglaaa__under6,1,0,G2,G1,False,0.906299,False,True,0.906299,0.087828,0.000985,0.004888
+oct_G2_naglaaa_000057,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000057.jpg,G2__naglaaa__under6,1,0,G2,G1,False,0.968633,False,True,0.968633,0.028628,0.00063,0.002109
+oct_G2_naglaaa_000058,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000058.jpg,G2__naglaaa__under6,1,0,G2,G1,False,0.69393,False,False,0.69393,0.288709,0.000695,0.016666
+oct_G2_naglaaa_000059,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000059.jpg,G2__naglaaa__under6,1,0,G2,G1,False,0.606165,False,False,0.606165,0.389083,0.000786,0.003966
+oct_G2_naglaaa_000060,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000060.jpg,G2__naglaaa__under6,1,0,G2,G1,False,0.653565,False,False,0.653565,0.343062,0.001223,0.00215
+oct_G2_naglaaa_000061,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000061.jpg,G2__naglaaa__under6,1,0,G2,G1,False,0.882661,False,True,0.882661,0.086588,0.001591,0.02916
+oct_G2_naglaaa_000066,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000066.jpg,G2__naglaaa__under6,1,0,G2,G1,False,0.79996,False,False,0.79996,0.027899,0.000483,0.171657
+oct_G2_naglaaa_000067,data/raw/OCT/Original Data/OCT/Papilledema/G2/naglaaa_000067.jpg,G2__naglaaa__under6,1,0,G2,G1,False,0.959625,False,True,0.959625,0.030622,0.000856,0.008896
+oct_G2_NORAA004,data/raw/OCT/Original Data/OCT/Papilledema/G2/NORAA004.jpg,G2__noraa__cat3,1,2,G2,G3,False,0.858545,False,True,0.001191,0.140154,0.858545,0.00011
+oct_G2_NORAA029,data/raw/OCT/Original Data/OCT/Papilledema/G2/NORAA029.jpg,G2__noraa__cat3,1,2,G2,G3,False,0.867922,False,True,0.000244,0.13155,0.867922,0.000284
+oct_G2_NORAA031,data/raw/OCT/Original Data/OCT/Papilledema/G2/NORAA031.jpg,G2__noraa__cat3,1,2,G2,G3,False,0.732451,False,False,0.001517,0.265795,0.732451,0.000237

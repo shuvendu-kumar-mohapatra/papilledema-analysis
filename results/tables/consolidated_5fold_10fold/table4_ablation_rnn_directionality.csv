@@ -1,0 +1,9 @@
+Experimental Track,Model,5-Fold Macro-F1,10-Fold Macro-F1
+Fundus,LSTM,0.7483,0.7472
+Fundus,BILSTM,0.75,0.7293
+Individual OCT,LSTM,0.4963,0.4258
+Individual OCT,BILSTM,0.5245,0.3953
+OCT Sequence,LSTM,0.4047,0.5344
+OCT Sequence,BILSTM,0.4175,0.47
+OCT Severity,LSTM,0.1588,0.3001
+OCT Severity,BILSTM,0.2222,0.3223

@@ -1,0 +1,2 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+fundus_Normal_473,data/raw/fundus/Normal/473.jpg,fundus_cluster_0411,0,2,Normal,Pseudopapilledema,False,0.855505,False,True,0.144231,0.000264,0.855505

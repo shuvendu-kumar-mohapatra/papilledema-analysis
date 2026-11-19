@@ -1,0 +1,4 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+G2__hendm__under6__w048,data/raw/OCT/Original Data/OCT/Papilledema/G2/hendm_000048.jpg,G2__hendm__under6,1,0,Papilledema,Normal,False,0.574413,True,False,0.574413,0.281042,0.144545
+Normal__sabrenr__under6__w048,data/raw/OCT/Original Data/OCT/Normal/sabrenr_000048.jpg,Normal__sabrenr__under6,0,2,Normal,Pseudopapilledema,False,0.530777,True,False,0.424621,0.044602,0.530777
+Normal__sabrenr__under6__w064,data/raw/OCT/Original Data/OCT/Normal/sabrenr_000064.jpg,Normal__sabrenr__under6,0,2,Normal,Pseudopapilledema,False,0.352628,True,False,0.314324,0.333048,0.352628

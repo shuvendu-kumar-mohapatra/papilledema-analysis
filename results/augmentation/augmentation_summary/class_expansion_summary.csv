@@ -1,0 +1,11 @@
+dataset,class_label,original_count,target_count,synthetic_generated,final_total,expansion_ratio
+fundus_3class,Normal,778,778,0,778,1.0
+fundus_3class,Papilledema,295,750,455,750,2.542
+fundus_3class,Pseudopapilledema,294,750,456,750,2.551
+oct_individual,Papilledema,895,895,0,895,1.0
+oct_individual,Normal,132,850,718,850,6.439
+oct_individual,Pseudopapilledema,113,850,737,850,7.522
+oct_severity,G2,598,598,0,598,1.0
+oct_severity,G3,184,550,366,550,2.989
+oct_severity,G4,73,450,377,450,6.164
+oct_severity,G1,40,400,360,400,10.0

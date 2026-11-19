@@ -1,0 +1,9 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+oct_G2_YASMENA065,data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA065.jpg,G2__yasmena__cat3,1,0,Papilledema,Normal,False,0.493259,True,False,0.493259,0.405645,0.101096
+oct_G2_YASMENA066,data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA066.jpg,G2__yasmena__cat3,1,0,Papilledema,Normal,False,0.602596,False,False,0.602596,0.32603,0.071375
+oct_G2_YASMENA067,data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA067.jpg,G2__yasmena__cat3,1,0,Papilledema,Normal,False,0.559731,True,False,0.559731,0.395168,0.045101
+oct_G2_YASMENA068,data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA068.jpg,G2__yasmena__cat3,1,0,Papilledema,Normal,False,0.621957,False,False,0.621957,0.347017,0.031026
+oct_G2_YASMENA069,data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA069.jpg,G2__yasmena__cat3,1,0,Papilledema,Normal,False,0.531215,True,False,0.531215,0.450177,0.018608
+oct_G2_YASMENA070,data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA070.jpg,G2__yasmena__cat3,1,0,Papilledema,Normal,False,0.614979,False,False,0.614979,0.369198,0.015822
+oct_G2_YASMENA071,data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA071.jpg,G2__yasmena__cat3,1,0,Papilledema,Normal,False,0.676944,False,False,0.676944,0.308418,0.014638
+oct_G2_YASMENA072,data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA072.jpg,G2__yasmena__cat3,1,0,Papilledema,Normal,False,0.675583,False,False,0.675583,0.310667,0.01375

@@ -1,0 +1,106 @@
+{
+  "exp_id": "cv__oct_individual__densenet121__orig_10f__fold9__seed42",
+  "track": "oct_individual",
+  "model": "densenet121",
+  "n_folds": 10,
+  "fold": 9,
+  "condition": "original",
+  "train_samples": 1054,
+  "val_samples": 37,
+  "test_samples": 49,
+  "train_duration_sec": 146.209,
+  "best_epoch": 3,
+  "inference_latency_ms": 6.4829,
+  "total_params": 6950659,
+  "peak_gpu_mem_mb": 0.0,
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_precision": 1.0,
+  "weighted_recall": 1.0,
+  "weighted_f1": 1.0,
+  "macro_sensitivity": 1.0,
+  "macro_specificity": 1.0,
+  "roc_auc_ovr": 1.0,
+  "pr_auc_ovr": 1.0,
+  "per_class_auc": {
+    "Normal": 1.0,
+    "Papilledema": 1.0,
+    "Pseudopapilledema": 1.0
+  },
+  "per_class_pr_auc": {
+    "Normal": 1.0,
+    "Papilledema": 1.0,
+    "Pseudopapilledema": 1.0
+  },
+  "confusion_matrix": [
+    [
+      13,
+      0,
+      0
+    ],
+    [
+      0,
+      25,
+      0
+    ],
+    [
+      0,
+      0,
+      11
+    ]
+  ],
+  "per_class": {
+    "Normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "support": 13,
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "tn": 36
+    },
+    "Papilledema": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "support": 25,
+      "tp": 25,
+      "fp": 0,
+      "fn": 0,
+      "tn": 24
+    },
+    "Pseudopapilledema": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "support": 11,
+      "tp": 11,
+      "fp": 0,
+      "fn": 0,
+      "tn": 38
+    }
+  },
+  "num_samples": 49,
+  "error_rate": 0.0,
+  "micro_precision": 1.0,
+  "micro_recall": 1.0,
+  "micro_f1": 1.0,
+  "mcc": 1.0,
+  "cohen_kappa": 1.0,
+  "log_loss": 0.000938,
+  "brier_score": 3e-06,
+  "ece": 0.000938,
+  "qwk": null,
+  "mae": null,
+  "mse": null
+}

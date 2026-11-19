@@ -21,8 +21,8 @@ paths:
 
 training:
   epochs: 30
-  batch_size: 16
-  num_workers: 0  # Safe default on Windows; CLI/notebook can override
+  batch_size: 128
+  num_workers: 0
   learning_rate: 1.0e-4
   weight_decay: 1.0e-4
   grad_clip_norm: 1.0

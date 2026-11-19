@@ -1,0 +1,106 @@
+{
+  "exp_id": "cv__oct_individual__autoencoder_classifier__orig_10f__fold4__seed42",
+  "track": "oct_individual",
+  "model": "autoencoder_classifier",
+  "n_folds": 10,
+  "fold": 4,
+  "condition": "original",
+  "train_samples": 824,
+  "val_samples": 152,
+  "test_samples": 164,
+  "train_duration_sec": 31.634,
+  "best_epoch": 10,
+  "inference_latency_ms": 2.2811,
+  "total_params": 717252,
+  "peak_gpu_mem_mb": 0.0,
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_precision": 1.0,
+  "weighted_recall": 1.0,
+  "weighted_f1": 1.0,
+  "macro_sensitivity": 1.0,
+  "macro_specificity": 1.0,
+  "roc_auc_ovr": 1.0,
+  "pr_auc_ovr": 1.0,
+  "per_class_auc": {
+    "Normal": 1.0,
+    "Papilledema": 1.0,
+    "Pseudopapilledema": 1.0
+  },
+  "per_class_pr_auc": {
+    "Normal": 1.0,
+    "Papilledema": 1.0,
+    "Pseudopapilledema": 1.0
+  },
+  "confusion_matrix": [
+    [
+      13,
+      0,
+      0
+    ],
+    [
+      0,
+      140,
+      0
+    ],
+    [
+      0,
+      0,
+      11
+    ]
+  ],
+  "per_class": {
+    "Normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "support": 13,
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "tn": 151
+    },
+    "Papilledema": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "support": 140,
+      "tp": 140,
+      "fp": 0,
+      "fn": 0,
+      "tn": 24
+    },
+    "Pseudopapilledema": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "support": 11,
+      "tp": 11,
+      "fp": 0,
+      "fn": 0,
+      "tn": 153
+    }
+  },
+  "num_samples": 164,
+  "error_rate": 0.0,
+  "micro_precision": 1.0,
+  "micro_recall": 1.0,
+  "micro_f1": 1.0,
+  "mcc": 1.0,
+  "cohen_kappa": 1.0,
+  "log_loss": 0.139184,
+  "brier_score": 0.058749,
+  "ece": 0.117534,
+  "qwk": null,
+  "mae": null,
+  "mse": null
+}

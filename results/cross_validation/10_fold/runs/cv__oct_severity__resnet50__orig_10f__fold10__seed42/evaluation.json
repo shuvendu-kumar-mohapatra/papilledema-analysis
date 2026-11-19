@@ -1,0 +1,129 @@
+{
+  "exp_id": "cv__oct_severity__resnet50__orig_10f__fold10__seed42",
+  "track": "oct_severity",
+  "model": "resnet50",
+  "n_folds": 10,
+  "fold": 10,
+  "condition": "original",
+  "train_samples": 716,
+  "val_samples": 91,
+  "test_samples": 88,
+  "train_duration_sec": 55.406,
+  "best_epoch": 8,
+  "inference_latency_ms": 10.9433,
+  "total_params": 23509956,
+  "peak_gpu_mem_mb": 0.0,
+  "accuracy": 0.693182,
+  "balanced_accuracy": 0.665691,
+  "macro_precision": 0.765625,
+  "macro_recall": 0.665691,
+  "macro_f1": 0.70047,
+  "weighted_precision": 0.691761,
+  "weighted_recall": 0.693182,
+  "weighted_f1": 0.686748,
+  "macro_sensitivity": 0.665691,
+  "macro_specificity": 0.822783,
+  "roc_auc_ovr": 0.841916,
+  "pr_auc_ovr": 0.828578,
+  "per_class_auc": {
+    "G1": 1.0,
+    "G2": 0.720047,
+    "G3": 0.647619,
+    "G4": 1.0
+  },
+  "per_class_pr_auc": {
+    "G1": 1.0,
+    "G2": 0.853279,
+    "G3": 0.461035,
+    "G4": 1.0
+  },
+  "confusion_matrix": [
+    [
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      48,
+      11,
+      0
+    ],
+    [
+      0,
+      13,
+      5,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      4
+    ]
+  ],
+  "per_class": {
+    "G1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "support": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "tn": 84
+    },
+    "G2": {
+      "precision": 0.75,
+      "recall": 0.813559,
+      "f1": 0.780488,
+      "sensitivity": 0.813559,
+      "specificity": 0.448276,
+      "support": 59,
+      "tp": 48,
+      "fp": 16,
+      "fn": 11,
+      "tn": 13
+    },
+    "G3": {
+      "precision": 0.3125,
+      "recall": 0.277778,
+      "f1": 0.294118,
+      "sensitivity": 0.277778,
+      "specificity": 0.842857,
+      "support": 18,
+      "tp": 5,
+      "fp": 11,
+      "fn": 13,
+      "tn": 59
+    },
+    "G4": {
+      "precision": 1.0,
+      "recall": 0.571429,
+      "f1": 0.727273,
+      "sensitivity": 0.571429,
+      "specificity": 1.0,
+      "support": 7,
+      "tp": 4,
+      "fp": 0,
+      "fn": 3,
+      "tn": 81
+    }
+  },
+  "num_samples": 88,
+  "error_rate": 0.306818,
+  "micro_precision": 0.693182,
+  "micro_recall": 0.693182,
+  "micro_f1": 0.693182,
+  "mcc": 0.349238,
+  "cohen_kappa": 0.346535,
+  "log_loss": 1.269963,
+  "brier_score": 0.51719,
+  "ece": 0.25492,
+  "qwk": 0.508685,
+  "mae": 0.340909,
+  "mse": 0.409091
+}

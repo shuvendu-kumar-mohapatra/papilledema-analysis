@@ -1,0 +1,106 @@
+{
+  "exp_id": "cv__fundus_3class__mlp__orig_10f__fold10__seed42",
+  "track": "fundus_3class",
+  "model": "mlp",
+  "n_folds": 10,
+  "fold": 10,
+  "condition": "original",
+  "train_samples": 1094,
+  "val_samples": 137,
+  "test_samples": 136,
+  "train_duration_sec": 142.05,
+  "best_epoch": 27,
+  "inference_latency_ms": 1.7056,
+  "total_params": 233231,
+  "peak_gpu_mem_mb": 0.0,
+  "accuracy": 0.911765,
+  "balanced_accuracy": 0.919774,
+  "macro_precision": 0.891313,
+  "macro_recall": 0.919774,
+  "macro_f1": 0.902591,
+  "weighted_precision": 0.9191,
+  "weighted_recall": 0.911765,
+  "weighted_f1": 0.912948,
+  "macro_sensitivity": 0.919774,
+  "macro_specificity": 0.957342,
+  "roc_auc_ovr": 0.976624,
+  "pr_auc_ovr": 0.953816,
+  "per_class_auc": {
+    "Normal": 0.977328,
+    "Papilledema": 0.975185,
+    "Pseudopapilledema": 0.977358
+  },
+  "per_class_pr_auc": {
+    "Normal": 0.984828,
+    "Papilledema": 0.942014,
+    "Pseudopapilledema": 0.934605
+  },
+  "confusion_matrix": [
+    [
+      69,
+      2,
+      6
+    ],
+    [
+      2,
+      26,
+      1
+    ],
+    [
+      0,
+      1,
+      29
+    ]
+  ],
+  "per_class": {
+    "Normal": {
+      "precision": 0.971831,
+      "recall": 0.896104,
+      "f1": 0.932432,
+      "sensitivity": 0.896104,
+      "specificity": 0.966102,
+      "support": 77,
+      "tp": 69,
+      "fp": 2,
+      "fn": 8,
+      "tn": 57
+    },
+    "Papilledema": {
+      "precision": 0.896552,
+      "recall": 0.896552,
+      "f1": 0.896552,
+      "sensitivity": 0.896552,
+      "specificity": 0.971963,
+      "support": 29,
+      "tp": 26,
+      "fp": 3,
+      "fn": 3,
+      "tn": 104
+    },
+    "Pseudopapilledema": {
+      "precision": 0.805556,
+      "recall": 0.966667,
+      "f1": 0.878788,
+      "sensitivity": 0.966667,
+      "specificity": 0.933962,
+      "support": 30,
+      "tp": 29,
+      "fp": 7,
+      "fn": 1,
+      "tn": 99
+    }
+  },
+  "num_samples": 136,
+  "error_rate": 0.088235,
+  "micro_precision": 0.911765,
+  "micro_recall": 0.911765,
+  "micro_f1": 0.911765,
+  "mcc": 0.856064,
+  "cohen_kappa": 0.853079,
+  "log_loss": 0.34868,
+  "brier_score": 0.175224,
+  "ece": 0.122274,
+  "qwk": null,
+  "mae": null,
+  "mse": null
+}

@@ -1,0 +1,10 @@
+Feature Category,Fundus Dimensions,OCT Dimensions,Description
+Intensity Statistics,13,13,"Mean, std, median, min, max, skewness, kurtosis, percentiles (5, 25, 75, 95), energy, entropy"
+Color Features (RGB),38,0,12 statistics per R/G/B channel + R/G and R/B mean ratio metrics (omitted for grayscale OCT)
+Texture: GLCM,12,12,"Contrast, dissimilarity, homogeneity, energy, correlation, ASM across 0° and 90° angles"
+Texture: LBP,11,11,"10-bin uniform LBP histogram + LBP entropy (P=8, R=1)"
+Structural & Edge,8,8,"Sobel gradient mean/std/max, Canny edge pixel density, corner Harris count/mean"
+HOG Summary Stats,4,4,"Mean, std, max, entropy of the HOG descriptor array"
+Total Scalar Features,86,48,Combined non-spatial scalar feature vector
+HOG Descriptor Array,1296,1296,"36 blocks x 36 values/block (pixels_per_cell=(32, 32), cells_per_block=(2, 2), 9 bins)"
+Total Handcrafted Features,1382,1344,Total handcrafted feature representation per image

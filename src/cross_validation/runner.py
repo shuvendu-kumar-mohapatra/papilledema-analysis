@@ -131,7 +131,12 @@ def _build_fold_loaders(
             ("val", val_df, False, False),
             ("test", test_df, False, True),
         ):
-            ds = MedicalImageDataset(sdf, dataset_name, img_size, is_tr, use_clahe, mean, std, return_meta=ret_meta)
+            try:
+                from src.data.ram_dataset import RAMResidentImageDataset, ensure_ram_cache
+                ensure_ram_cache(track)
+                ds = RAMResidentImageDataset(sdf, track=track, image_size=img_size, is_train=is_tr, use_clahe=use_clahe, mean=mean, std=std, return_meta=ret_meta)
+            except Exception:
+                ds = MedicalImageDataset(sdf, dataset_name, img_size, is_tr, use_clahe, mean, std, return_meta=ret_meta)
             loaders[name] = DataLoader(ds, batch_size=eff_bs, shuffle=is_tr, num_workers=num_workers, pin_memory=torch.cuda.is_available())
     else:
         seq_len = int(ds_cfg.get("sequence_length", 8))
@@ -140,7 +145,12 @@ def _build_fold_loaders(
             ("val", val_df, False, False),
             ("test", test_df, False, True),
         ):
-            ds = PrechunkedOCTSequenceDataset(sdf, seq_len=seq_len, image_size=img_size, is_train=is_tr, mean=mean, std=std, return_meta=ret_meta)
+            try:
+                from src.data.ram_dataset import RAMResidentOCTSequenceDataset, ensure_ram_cache
+                ensure_ram_cache(track)
+                ds = RAMResidentOCTSequenceDataset(sdf, track=track, seq_len=seq_len, image_size=img_size, is_train=is_tr, mean=mean, std=std, return_meta=ret_meta)
+            except Exception:
+                ds = PrechunkedOCTSequenceDataset(sdf, seq_len=seq_len, image_size=img_size, is_train=is_tr, mean=mean, std=std, return_meta=ret_meta)
             loaders[name] = DataLoader(ds, batch_size=eff_bs, shuffle=is_tr, num_workers=num_workers, pin_memory=torch.cuda.is_available())
     return loaders
 

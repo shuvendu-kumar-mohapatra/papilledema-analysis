@@ -1,0 +1,13 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+fundus_Normal_12,data/raw/fundus/Normal/12.jpg,fundus_cluster_0023,0,2,Normal,Pseudopapilledema,False,0.672909,False,False,0.31786,0.009231,0.672909
+fundus_Normal_326,data/raw/fundus/Normal/326.jpg,fundus_cluster_0249,0,2,Normal,Pseudopapilledema,False,0.571182,True,False,0.427796,0.001022,0.571182
+fundus_Normal_463,data/raw/fundus/Normal/463.jpg,fundus_cluster_0400,0,2,Normal,Pseudopapilledema,False,0.512143,True,False,0.46951,0.018348,0.512143
+fundus_Normal_745,data/raw/fundus/Normal/745.jpg,fundus_cluster_0713,0,2,Normal,Pseudopapilledema,False,0.787654,False,False,0.210653,0.001693,0.787654
+fundus_Normal_770,data/raw/fundus/Normal/770.jpg,fundus_cluster_0741,0,2,Normal,Pseudopapilledema,False,0.94039,False,True,0.054378,0.005232,0.94039
+fundus_Papilledema_138,data/raw/fundus/Papilledema/138.jpg,fundus_cluster_0815,1,2,Papilledema,Pseudopapilledema,False,0.624767,False,False,0.019946,0.355287,0.624767
+fundus_Papilledema_148,data/raw/fundus/Papilledema/148.jpg,fundus_cluster_0825,1,2,Papilledema,Pseudopapilledema,False,0.629796,False,False,0.007836,0.362368,0.629796
+fundus_Papilledema_149,data/raw/fundus/Papilledema/149.jpg,fundus_cluster_0826,1,0,Papilledema,Normal,False,0.852379,False,True,0.852379,0.097666,0.049955
+fundus_Papilledema_258,data/raw/fundus/Papilledema/258.jpg,fundus_cluster_0940,1,2,Papilledema,Pseudopapilledema,False,0.786548,False,False,0.123814,0.089638,0.786548
+fundus_Pseudopapilledema_13,data/raw/fundus/Pseudopapilledema/13.jpg,fundus_cluster_1071,2,1,Pseudopapilledema,Papilledema,False,0.482426,True,False,0.040302,0.482426,0.477272
+fundus_Pseudopapilledema_160,data/raw/fundus/Pseudopapilledema/160.jpg,fundus_cluster_1091,2,0,Pseudopapilledema,Normal,False,0.528099,True,False,0.528099,0.105472,0.366429
+fundus_Pseudopapilledema_209,data/raw/fundus/Pseudopapilledema/209.jpg,fundus_cluster_1136,2,1,Pseudopapilledema,Papilledema,False,0.56976,True,False,0.003509,0.56976,0.426731

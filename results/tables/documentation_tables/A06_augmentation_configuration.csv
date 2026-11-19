@@ -1,0 +1,10 @@
+Modality,Transformation,Parameter Range,Clinical / Anatomical Justification
+Fundus,Horizontal Flip,p = 0.5,OD/OS (right/left eye) bilateral symmetry is anatomically valid
+Fundus,Small Rotation,"[-12°, +12°]",Simulates natural patient head tilt and cyclotorsion
+Fundus,Controlled Scaling & Affine,"scale in [0.95, 1.05], trans in [-6, +6] px",Simulates slight camera-to-cornea working distance variation
+Fundus,Photometric Jitter,"brightness, contrast, saturation in [0.92, 1.08]",Simulates flash intensity and pupil dilation illumination differences
+OCT B-scan,Horizontal Flip,p = 0.5,Temporal-to-nasal scan direction variation is anatomically valid
+OCT B-scan,Vertical Flip,STRICTLY FORBIDDEN (p = 0.0),Inversion destroys vitreoretinal top-bottom anatomical polarity
+OCT B-scan,Small Rotation,"[-6°, +6°] ([-4°, +4°] for severity)",Simulates scan angle tilt across optic nerve head
+OCT B-scan,Translation,"[-6, +6] px ([-4, +4] px for severity)",Simulates scan centration offsets
+OCT B-scan,Contrast & Brightness,"[0.92, 1.08] ([0.95, 1.05] for severity)",Simulates laser optical signal-to-noise ratio and speckle variability

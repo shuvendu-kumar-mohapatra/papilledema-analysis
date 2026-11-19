@@ -1,0 +1,7 @@
+Sequence Length,Evaluation Protocol,Window-Level Macro-F1,Sequence-Level Accuracy,Correct Sequences
+4,5-Fold CV,0.882,95.24%,20 / 21
+4,10-Fold CV,Unavailable (L=8 default),Unavailable,Unavailable
+8,5-Fold CV,0.8984,90.48%,19 / 21
+8,10-Fold CV,0.8337,Evaluated at Window-level,N/A (Window-level)
+12,5-Fold CV,0.8903,95.24%,20 / 21
+12,10-Fold CV,Unavailable (L=8 default),Unavailable,Unavailable

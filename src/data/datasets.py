@@ -44,25 +44,32 @@ class MedicalImageDataset(Dataset):
         self.mean = mean
         self.std = std
         self.transform = build_train_augmentations(modality, image_size) if is_train else build_eval_transform(image_size)
+        self._image_cache: dict[int, Image.Image] = {}
 
     def __len__(self) -> int:
         return len(self.df)
 
     def __getitem__(self, idx: int) -> Any:
         row = self.df.iloc[idx]
-        img_path = resolve_path(row["image_path"])
-        try:
-            with Image.open(img_path) as im:
-                if self.modality == "fundus":
-                    img = im.convert("RGB")
-                    if self.use_clahe:
-                        img = apply_fundus_clahe(img)
-                else:
-                    img = im.convert("L")
-                img = self.transform(img)
-        except Exception as exc:
-            raise RuntimeError(f"Failed loading image {img_path}: {type(exc).__name__}: {exc}") from exc
+        if idx in self._image_cache:
+            base_im = self._image_cache[idx]
+        else:
+            img_path = resolve_path(row["image_path"])
+            try:
+                with Image.open(img_path) as im:
+                    if self.modality == "fundus":
+                        base_im = im.convert("RGB")
+                        if self.use_clahe:
+                            base_im = apply_fundus_clahe(base_im)
+                    else:
+                        base_im = im.convert("L")
+                    if base_im.size != (self.image_size, self.image_size):
+                        base_im = base_im.resize((self.image_size, self.image_size), resample=Image.BILINEAR)
+                    self._image_cache[idx] = base_im
+            except Exception as exc:
+                raise RuntimeError(f"Failed loading image {img_path}: {type(exc).__name__}: {exc}") from exc
 
+        img = self.transform(base_im) if self.is_train else base_im
         x = pil_to_normalized_tensor(img, self.mean, self.std)
         y = int(row["label_idx"])
         if not self.return_meta:

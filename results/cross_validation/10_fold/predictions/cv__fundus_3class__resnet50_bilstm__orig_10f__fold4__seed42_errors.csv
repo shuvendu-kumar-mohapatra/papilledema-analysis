@@ -1,0 +1,5 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+fundus_Normal_237,data/raw/fundus/Normal/237.jpg,fundus_cluster_0150,0,2,Normal,Pseudopapilledema,False,0.802483,False,True,0.194841,0.002677,0.802483
+fundus_Normal_296,data/raw/fundus/Normal/296.jpg,fundus_cluster_0215,0,2,Normal,Pseudopapilledema,False,0.553923,True,False,0.444655,0.001422,0.553923
+fundus_Normal_336,data/raw/fundus/Normal/336.jpg,fundus_cluster_0260,0,2,Normal,Pseudopapilledema,False,0.991164,False,True,0.007516,0.00132,0.991164
+fundus_Papilledema_213,data/raw/fundus/Papilledema/213.jpg,fundus_cluster_0891,1,2,Papilledema,Pseudopapilledema,False,0.724134,False,False,0.000478,0.275388,0.724134

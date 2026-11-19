@@ -1,0 +1,10 @@
+Parameter,Value
+Input Image Resolution,224 x 224 pixels
+Color Space,Grayscale (RGB converted to L for Fundus)
+Pixels per Cell,"(32, 32)"
+Cells per Block,"(2, 2)"
+Orientation Bins,9 (unsigned 0° - 180°)
+Block Normalization,L2-Hys (Lowe-style clipped L2 norm)
+Total Spatial Blocks,6 x 6 = 36 blocks
+Values per Block,2 x 2 x 9 = 36 values
+Total HOG Dimensions,"36 blocks x 36 values = 1,296 dimensions"

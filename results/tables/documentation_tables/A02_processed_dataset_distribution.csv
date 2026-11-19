@@ -1,0 +1,5 @@
+Dataset,Original Dimensions,Processed Dimensions,Raw Images,Excluded,Retained,Exclusion Reason
+Fundus,240 x 240 (dominant),224 x 224,1369,2,1367,Cross-class duplicate pair (Normal vs Pseudo)
+Individual OCT,381 x 596 (dominant),224 x 224,1141,1,1140,IR/SLO localizer reflectance image (heshama_001.jpg)
+OCT Sequence,Variable slices (381 x 596),224 x 224 per slice,1127,0,1127,"L=8, stride=8, min_len=2 chunking into 146 windows"
+OCT Severity,381 x 596 (dominant),224 x 224,895,0,895,Papilledema cohort with exploratory folder labels G1-G4

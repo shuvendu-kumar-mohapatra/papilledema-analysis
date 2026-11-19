@@ -1,0 +1,17 @@
+{
+  "active_cv_regimes": [10],
+  "sequential_heavy": true,
+  "max_heavy_concurrent": 1,
+  "max_concurrency": 4,
+  "max_concurrent_by_category": {
+    "tabular_ae": 6,
+    "sequence": 4,
+    "cnn_standalone": 1,
+    "cnn_hybrid": 1
+  },
+  "vram_heavy_pause_pct": 85.0,
+  "vram_hard_ceiling_pct": 92.0,
+  "min_available_ram_gb": 3.0,
+  "max_acceptable_epoch_sec": 1200.0,
+  "notes": "Exclusive 10-Fold CV Scheduler policy. Heavy models run strictly one-at-a-time (1 concurrent), completing all 10 folds of each architecture before advancing to the next, preventing GPU/RAM resource contention."
+}

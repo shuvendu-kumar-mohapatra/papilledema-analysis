@@ -1,0 +1,129 @@
+{
+  "exp_id": "cv__oct_severity__resnet50__orig_10f__fold7__seed42",
+  "track": "oct_severity",
+  "model": "resnet50",
+  "n_folds": 10,
+  "fold": 7,
+  "condition": "original",
+  "train_samples": 717,
+  "val_samples": 89,
+  "test_samples": 89,
+  "train_duration_sec": 61.658,
+  "best_epoch": 10,
+  "inference_latency_ms": 1.405,
+  "total_params": 23509956,
+  "peak_gpu_mem_mb": 0.0,
+  "accuracy": 0.988764,
+  "balanced_accuracy": 0.995833,
+  "macro_precision": 0.986842,
+  "macro_recall": 0.995833,
+  "macro_f1": 0.991142,
+  "weighted_precision": 0.989355,
+  "weighted_recall": 0.988764,
+  "weighted_f1": 0.988869,
+  "macro_sensitivity": 0.995833,
+  "macro_specificity": 0.996479,
+  "roc_auc_ovr": 1.0,
+  "pr_auc_ovr": 1.0,
+  "per_class_auc": {
+    "G1": 1.0,
+    "G2": 1.0,
+    "G3": 1.0,
+    "G4": 1.0
+  },
+  "per_class_pr_auc": {
+    "G1": 1.0,
+    "G2": 1.0,
+    "G3": 1.0,
+    "G4": 1.0
+  },
+  "confusion_matrix": [
+    [
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      59,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      18,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      7
+    ]
+  ],
+  "per_class": {
+    "G1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "support": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "tn": 85
+    },
+    "G2": {
+      "precision": 1.0,
+      "recall": 0.983333,
+      "f1": 0.991597,
+      "sensitivity": 0.983333,
+      "specificity": 1.0,
+      "support": 60,
+      "tp": 59,
+      "fp": 0,
+      "fn": 1,
+      "tn": 29
+    },
+    "G3": {
+      "precision": 0.947368,
+      "recall": 1.0,
+      "f1": 0.972973,
+      "sensitivity": 1.0,
+      "specificity": 0.985915,
+      "support": 18,
+      "tp": 18,
+      "fp": 1,
+      "fn": 0,
+      "tn": 70
+    },
+    "G4": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0,
+      "support": 7,
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "tn": 82
+    }
+  },
+  "num_samples": 89,
+  "error_rate": 0.011236,
+  "micro_precision": 0.988764,
+  "micro_recall": 0.988764,
+  "micro_f1": 0.988764,
+  "mcc": 0.977903,
+  "cohen_kappa": 0.977604,
+  "log_loss": 0.015263,
+  "brier_score": 0.011925,
+  "ece": 0.008696,
+  "qwk": 0.987916,
+  "mae": 0.011236,
+  "mse": 0.011236
+}

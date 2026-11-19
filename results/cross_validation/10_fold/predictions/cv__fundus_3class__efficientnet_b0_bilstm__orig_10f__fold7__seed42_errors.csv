@@ -1,0 +1,3 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+fundus_Normal_769,data/raw/fundus/Normal/769.jpg,fundus_cluster_0739,0,2,Normal,Pseudopapilledema,False,0.519366,True,False,0.470125,0.010509,0.519366
+fundus_Pseudopapilledema_48,data/raw/fundus/Pseudopapilledema/48.jpg,fundus_cluster_1228,2,1,Pseudopapilledema,Papilledema,False,0.507108,True,False,0.011833,0.507108,0.481059

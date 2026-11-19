@@ -1,0 +1,46 @@
+{
+  "fundus_3class": {
+    "track": "fundus_3class",
+    "n_samples": 1367,
+    "n_folds": 10,
+    "strategies_used": [
+      "StratifiedGroupKFold(cluster_id)"
+    ],
+    "patient_independent": false,
+    "validation_passed": true
+  },
+  "oct_individual": {
+    "track": "oct_individual",
+    "n_samples": 1140,
+    "n_folds": 10,
+    "strategies_used": [
+      "contiguous_slice_block_single_prefix",
+      "inferred_subject_prefix_grouped"
+    ],
+    "patient_independent": false,
+    "validation_passed": true
+  },
+  "oct_sequence": {
+    "track": "oct_sequence",
+    "n_samples": 146,
+    "n_folds": 10,
+    "strategies_used": [
+      "contiguous_window_block_2seqs",
+      "inferred_subject_prefix_grouped_windows"
+    ],
+    "patient_independent": false,
+    "validation_passed": true
+  },
+  "oct_severity": {
+    "track": "oct_severity",
+    "n_samples": 895,
+    "n_folds": 10,
+    "strategies_used": [
+      "contiguous_slice_block_1prefix",
+      "contiguous_slice_block_3prefix",
+      "contiguous_slice_block_6prefix"
+    ],
+    "patient_independent": false,
+    "validation_passed": true
+  }
+}

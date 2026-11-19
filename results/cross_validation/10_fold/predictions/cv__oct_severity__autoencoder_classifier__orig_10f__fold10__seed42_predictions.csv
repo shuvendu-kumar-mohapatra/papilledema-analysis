@@ -1,0 +1,89 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_G1,prob_G2,prob_G3,prob_G4
+oct_G1_hagerh_001015,data/raw/OCT/Original Data/OCT/Papilledema/G1/hagerh_001015.jpg,G1__hagerh__under6,0,1,G1,G2,False,0.408041,True,False,0.401715,0.408041,0.027876,0.162367
+oct_G1_hagerh_001016,data/raw/OCT/Original Data/OCT/Papilledema/G1/hagerh_001016.jpg,G1__hagerh__under6,0,0,G1,G1,True,0.477713,True,False,0.477713,0.298071,0.023415,0.2008
+oct_G1_hagerh_001017,data/raw/OCT/Original Data/OCT/Papilledema/G1/hagerh_001017.jpg,G1__hagerh__under6,0,0,G1,G1,True,0.389815,True,False,0.389815,0.37893,0.032981,0.198273
+oct_G1_hagerh_001018,data/raw/OCT/Original Data/OCT/Papilledema/G1/hagerh_001018.jpg,G1__hagerh__under6,0,0,G1,G1,True,0.460157,True,False,0.460157,0.325822,0.028373,0.185648
+oct_G2_YASMENA_(15),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (15).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.675529,False,False,0.009778,0.126187,0.675529,0.188506
+oct_G2_YASMENA_(16),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (16).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.663811,False,False,0.01093,0.109856,0.663811,0.215403
+oct_G2_YASMENA_(17),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (17).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.647645,False,False,0.01313,0.10535,0.647645,0.233875
+oct_G2_YASMENA_(18),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (18).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.698562,False,False,0.009772,0.122553,0.698562,0.169113
+oct_G2_YASMENA_(19),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (19).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.573279,True,False,0.023639,0.069343,0.573279,0.333738
+oct_G2_YASMENA_(20),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (20).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.67658,False,False,0.012936,0.121408,0.67658,0.189076
+oct_G2_YASMENA_(21),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (21).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.666575,False,False,0.013646,0.114288,0.666575,0.20549
+oct_G2_YASMENA_(22),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (22).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.649858,False,False,0.014498,0.113675,0.649858,0.221968
+oct_G2_YASMENA_(23),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (23).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.686947,False,False,0.012423,0.114927,0.686947,0.185704
+oct_G2_YASMENA_(24),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (24).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.639748,False,False,0.017166,0.083467,0.639748,0.25962
+oct_G2_YASMENA_(25),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (25).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.674456,False,False,0.011537,0.121901,0.674456,0.192106
+oct_G2_YASMENA_(26),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (26).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.669683,False,False,0.010461,0.136954,0.669683,0.182902
+oct_G2_YASMENA_(27),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (27).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.493337,True,False,0.025841,0.078172,0.493337,0.40265
+oct_G2_YASMENA_(28),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (28).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.614937,False,False,0.012358,0.129766,0.614937,0.242939
+oct_G2_YASMENA_(29),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (29).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.573586,True,False,0.016415,0.086356,0.573586,0.323643
+oct_G2_YASMENA_(30),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (30).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.598005,True,False,0.01033,0.166344,0.598005,0.225321
+oct_G2_YASMENA_(31),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (31).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.585174,True,False,0.012506,0.14087,0.585174,0.26145
+oct_G2_YASMENA_(32),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (32).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.484054,True,False,0.023982,0.131541,0.484054,0.360422
+oct_G2_YASMENA_(33),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (33).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.584239,True,False,0.017267,0.137588,0.584239,0.260905
+oct_G2_YASMENA_(34),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (34).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.544968,True,False,0.020601,0.194837,0.544968,0.239595
+oct_G2_YASMENA_(35),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (35).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.557,True,False,0.018347,0.187302,0.557,0.237351
+oct_G2_YASMENA_(36),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (36).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.536934,True,False,0.01143,0.268148,0.536934,0.183487
+oct_G2_YASMENA_(37),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (37).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.503146,True,False,0.02091,0.172109,0.503146,0.303835
+oct_G2_YASMENA_(38),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (38).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.481521,True,False,0.020808,0.155889,0.481521,0.341783
+oct_G2_YASMENA_(39),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (39).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.53235,True,False,0.01175,0.245999,0.53235,0.209901
+oct_G2_YASMENA_(40),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (40).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.538694,True,False,0.008606,0.316064,0.538694,0.136636
+oct_G2_YASMENA_(41),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (41).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.526084,True,False,0.010297,0.274935,0.526084,0.188683
+oct_G2_YASMENA_(42),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (42).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.48785,True,False,0.014126,0.187624,0.48785,0.310399
+oct_G2_YASMENA_(43),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (43).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.46827,True,False,0.01699,0.156755,0.46827,0.357985
+oct_G2_YASMENA_(44),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (44).jpg,G2__yasmena__paren,1,3,G2,G4,False,0.649664,False,False,0.03936,0.057184,0.253792,0.649664
+oct_G2_YASMENA_(45),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (45).jpg,G2__yasmena__paren,1,3,G2,G4,False,0.531748,True,False,0.02939,0.089452,0.34941,0.531748
+oct_G2_YASMENA_(46),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (46).jpg,G2__yasmena__paren,1,3,G2,G4,False,0.476509,True,False,0.02921,0.138611,0.355671,0.476509
+oct_G2_YASMENA_(47),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (47).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.456167,True,False,0.015655,0.261188,0.456167,0.266991
+oct_G2_YASMENA_(48),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (48).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.444762,True,False,0.014437,0.304935,0.444762,0.235866
+oct_G2_YASMENA_(49),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (49).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.426242,True,False,0.019607,0.25131,0.426242,0.302841
+oct_G2_YASMENA_(50),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (50).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.437362,True,False,0.020818,0.23872,0.437362,0.3031
+oct_G2_YASMENA_(51),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (51).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.469811,True,False,0.015998,0.302741,0.469811,0.21145
+oct_G2_YASMENA_(52),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (52).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.443672,True,False,0.016544,0.333759,0.443672,0.206025
+oct_G2_YASMENA_(53),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (53).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.464292,True,False,0.01652,0.337369,0.464292,0.181819
+oct_G2_YASMENA_(54),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (54).jpg,G2__yasmena__paren,1,1,G2,G2,True,0.415744,True,False,0.020902,0.415744,0.402953,0.160401
+oct_G2_YASMENA_(55),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (55).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.544191,True,False,0.012296,0.320852,0.544191,0.122662
+oct_G2_YASMENA_(56),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (56).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.53271,True,False,0.012274,0.345627,0.53271,0.109389
+oct_G2_YASMENA_(57),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (57).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.571029,True,False,0.013054,0.304458,0.571029,0.111458
+oct_G2_YASMENA_(58),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (58).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.575058,True,False,0.013172,0.31882,0.575058,0.092949
+oct_G2_YASMENA_(59),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (59).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.600889,False,False,0.013603,0.285508,0.600889,0.1
+oct_G2_YASMENA_(60),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (60).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.615016,False,False,0.015114,0.261816,0.615016,0.108054
+oct_G2_YASMENA_(61),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (61).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.63272,False,False,0.015352,0.237472,0.63272,0.114456
+oct_G2_YASMENA_(62),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (62).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.590058,True,False,0.014946,0.308218,0.590058,0.086778
+oct_G2_YASMENA_(63),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (63).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.582117,True,False,0.022971,0.243612,0.582117,0.151299
+oct_G2_YASMENA_(64),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (64).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.601895,False,False,0.01604,0.277187,0.601895,0.104878
+oct_G2_YASMENA_(65),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (65).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.603726,False,False,0.013508,0.299743,0.603726,0.083023
+oct_G2_YASMENA_(66),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (66).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.602177,False,False,0.015075,0.288364,0.602177,0.094384
+oct_G2_YASMENA_(67),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (67).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.530763,True,False,0.030955,0.244071,0.530763,0.194211
+oct_G2_YASMENA_(68),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (68).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.591932,True,False,0.011429,0.320886,0.591932,0.075753
+oct_G2_YASMENA_(69),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (69).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.589212,True,False,0.01076,0.327626,0.589212,0.072402
+oct_G2_YASMENA_(70),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (70).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.605043,False,False,0.011256,0.303938,0.605043,0.079763
+oct_G2_YASMENA_(71),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (71).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.607356,False,False,0.014911,0.265075,0.607356,0.112659
+oct_G2_YASMENA_(72),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (72).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.601282,False,False,0.01153,0.301165,0.601282,0.086022
+oct_G2_YASMENA_(73),data/raw/OCT/Original Data/OCT/Papilledema/G2/YASMENA (73).jpg,G2__yasmena__paren,1,2,G2,G3,False,0.607563,False,False,0.011336,0.295814,0.607563,0.085287
+oct_G3_norah020,data/raw/OCT/Original Data/OCT/Papilledema/G3/norah020.jpg,G3__norah__cat3,2,2,G3,G3,True,0.658982,False,False,0.004233,0.153345,0.658982,0.18344
+oct_G3_norah021,data/raw/OCT/Original Data/OCT/Papilledema/G3/norah021.jpg,G3__norah__cat3,2,2,G3,G3,True,0.631554,False,False,0.003897,0.252198,0.631554,0.11235
+oct_G3_norah022,data/raw/OCT/Original Data/OCT/Papilledema/G3/norah022.jpg,G3__norah__cat3,2,2,G3,G3,True,0.691237,False,False,0.003557,0.185409,0.691237,0.119797
+oct_G3_norah023,data/raw/OCT/Original Data/OCT/Papilledema/G3/norah023.jpg,G3__norah__cat3,2,2,G3,G3,True,0.639816,False,False,0.003705,0.267759,0.639816,0.08872
+oct_G3_norah024,data/raw/OCT/Original Data/OCT/Papilledema/G3/norah024.jpg,G3__norah__cat3,2,2,G3,G3,True,0.559186,True,False,0.003794,0.36565,0.559186,0.071371
+oct_G3_v000,data/raw/OCT/Original Data/OCT/Papilledema/G3/v000.jpg,G3__v__cat3,2,2,G3,G3,True,0.633531,False,False,0.006573,0.319494,0.633531,0.040402
+oct_G3_v001,data/raw/OCT/Original Data/OCT/Papilledema/G3/v001.jpg,G3__v__cat3,2,2,G3,G3,True,0.604333,False,False,0.006245,0.350103,0.604333,0.039319
+oct_G3_v002,data/raw/OCT/Original Data/OCT/Papilledema/G3/v002.jpg,G3__v__cat3,2,2,G3,G3,True,0.56826,True,False,0.006215,0.390178,0.56826,0.035348
+oct_G3_v003,data/raw/OCT/Original Data/OCT/Papilledema/G3/v003.jpg,G3__v__cat3,2,1,G3,G2,False,0.55972,True,False,0.008441,0.55972,0.400014,0.031825
+oct_G3_v004,data/raw/OCT/Original Data/OCT/Papilledema/G3/v004.jpg,G3__v__cat3,2,1,G3,G2,False,0.522641,True,False,0.007975,0.522641,0.43498,0.034405
+oct_G3_v005,data/raw/OCT/Original Data/OCT/Papilledema/G3/v005.jpg,G3__v__cat3,2,2,G3,G3,True,0.624659,False,False,0.006112,0.331106,0.624659,0.038123
+oct_G3_v006,data/raw/OCT/Original Data/OCT/Papilledema/G3/v006.jpg,G3__v__cat3,2,2,G3,G3,True,0.531267,True,False,0.005632,0.437863,0.531267,0.025239
+oct_G3_v007,data/raw/OCT/Original Data/OCT/Papilledema/G3/v007.jpg,G3__v__cat3,2,2,G3,G3,True,0.533133,True,False,0.005651,0.433857,0.533133,0.027359
+oct_G3_v008,data/raw/OCT/Original Data/OCT/Papilledema/G3/v008.jpg,G3__v__cat3,2,1,G3,G2,False,0.583635,True,False,0.007093,0.583635,0.389164,0.020108
+oct_G3_v009,data/raw/OCT/Original Data/OCT/Papilledema/G3/v009.jpg,G3__v__cat3,2,2,G3,G3,True,0.597362,True,False,0.006982,0.362672,0.597362,0.032985
+oct_G3_v010,data/raw/OCT/Original Data/OCT/Papilledema/G3/v010.jpg,G3__v__cat3,2,1,G3,G2,False,0.533975,True,False,0.006502,0.533975,0.437951,0.021571
+oct_G3_v011,data/raw/OCT/Original Data/OCT/Papilledema/G3/v011.jpg,G3__v__cat3,2,1,G3,G2,False,0.486891,True,False,0.008072,0.486891,0.481218,0.023818
+oct_G3_v012,data/raw/OCT/Original Data/OCT/Papilledema/G3/v012.jpg,G3__v__cat3,2,1,G3,G2,False,0.644967,False,False,0.005668,0.644967,0.335914,0.013451
+oct_G4_mostafaa_000066,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000066.jpg,G4__mostafaa__under6,3,2,G4,G3,False,0.489208,True,False,0.016545,0.35099,0.489208,0.143257
+oct_G4_mostafaa_000067,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000067.jpg,G4__mostafaa__under6,3,2,G4,G3,False,0.46675,True,False,0.012056,0.425396,0.46675,0.095798
+oct_G4_mostafaa_000068,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000068.jpg,G4__mostafaa__under6,3,2,G4,G3,False,0.410037,True,False,0.03962,0.271813,0.410037,0.278531
+oct_G4_mostafaa_000069,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000069.jpg,G4__mostafaa__under6,3,2,G4,G3,False,0.509056,True,False,0.01464,0.352269,0.509056,0.124036
+oct_G4_mostafaa_000070,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000070.jpg,G4__mostafaa__under6,3,2,G4,G3,False,0.497091,True,False,0.015382,0.368326,0.497091,0.119201
+oct_G4_mostafaa_000071,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000071.jpg,G4__mostafaa__under6,3,2,G4,G3,False,0.45711,True,False,0.011146,0.445214,0.45711,0.08653
+oct_G4_mostafaa_000072,data/raw/OCT/Original Data/OCT/Papilledema/G4/mostafaa_000072.jpg,G4__mostafaa__under6,3,2,G4,G3,False,0.492864,True,False,0.018111,0.343068,0.492864,0.145957

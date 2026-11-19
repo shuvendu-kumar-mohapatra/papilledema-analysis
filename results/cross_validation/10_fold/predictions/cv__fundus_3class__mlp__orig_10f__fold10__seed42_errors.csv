@@ -1,0 +1,13 @@
+sample_id,image_path,group_id,true_idx,pred_idx,true_label,pred_label,correct,confidence,low_confidence,high_confidence_error,prob_Normal,prob_Papilledema,prob_Pseudopapilledema
+fundus_Normal_113,data/raw/fundus/Normal/113.jpg,fundus_cluster_0016,0,2,Normal,Pseudopapilledema,False,0.505116,True,False,0.28376,0.211124,0.505116
+fundus_Normal_17,data/raw/fundus/Normal/17.jpg,fundus_cluster_0077,0,1,Normal,Papilledema,False,0.530581,True,False,0.192539,0.530581,0.276879
+fundus_Normal_175,data/raw/fundus/Normal/175.jpg,fundus_cluster_0083,0,1,Normal,Papilledema,False,0.634901,False,False,0.145415,0.634901,0.219684
+fundus_Normal_204,data/raw/fundus/Normal/204.jpg,fundus_cluster_0116,0,2,Normal,Pseudopapilledema,False,0.384617,True,False,0.232359,0.383024,0.384617
+fundus_Normal_326,data/raw/fundus/Normal/326.jpg,fundus_cluster_0249,0,2,Normal,Pseudopapilledema,False,0.571169,True,False,0.392175,0.036656,0.571169
+fundus_Normal_348,data/raw/fundus/Normal/348.jpg,fundus_cluster_0273,0,2,Normal,Pseudopapilledema,False,0.540051,True,False,0.413264,0.046685,0.540051
+fundus_Normal_745,data/raw/fundus/Normal/745.jpg,fundus_cluster_0713,0,2,Normal,Pseudopapilledema,False,0.647931,False,False,0.252559,0.099509,0.647931
+fundus_Normal_770,data/raw/fundus/Normal/770.jpg,fundus_cluster_0741,0,2,Normal,Pseudopapilledema,False,0.677874,False,False,0.067086,0.25504,0.677874
+fundus_Papilledema_138,data/raw/fundus/Papilledema/138.jpg,fundus_cluster_0815,1,2,Papilledema,Pseudopapilledema,False,0.536034,True,False,0.31728,0.146687,0.536034
+fundus_Papilledema_149,data/raw/fundus/Papilledema/149.jpg,fundus_cluster_0826,1,0,Papilledema,Normal,False,0.665144,False,False,0.665144,0.196418,0.138438
+fundus_Papilledema_258,data/raw/fundus/Papilledema/258.jpg,fundus_cluster_0940,1,0,Papilledema,Normal,False,0.481557,True,False,0.481557,0.121164,0.39728
+fundus_Pseudopapilledema_13,data/raw/fundus/Pseudopapilledema/13.jpg,fundus_cluster_1071,2,1,Pseudopapilledema,Papilledema,False,0.792518,False,False,0.058172,0.792518,0.14931
