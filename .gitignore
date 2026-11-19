@@ -23,9 +23,6 @@ Thumbs.db
 # Raw & processed medical datasets (never publish medical images or Patient-ID folders)
 data/raw/
 data/processed/
-results/augmentation/fundus_3class/
-results/augmentation/oct_individual/
-results/augmentation/oct_severity/
 scratch/
 
 # Generated image-level manifests, split tables, and per-sample predictions
